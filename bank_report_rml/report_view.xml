@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+   <report id="bank_report_for_rml_emp_rml"
+           name="payroll.bank.all.rml.rml"
+           auto="False"
+           model="bank.wizard.rml"
+           file="bank_report_rml/report/bank_report_rml.rml"
+           string="ePayment Schedule"
+           header="False"  
+           />
+           
+   <report id="bank_report_for_emp_acc_type_rml"
+           name="payroll.bank.all.rml.account.type"
+           auto="False"
+           model="bank.wizard.rml"
+           string="ePayment Schedule"
+           file="bank_report_rml/report/bank_report_account_type.rml"
+           header="False"  
+           />
+           
+   <report id="bank_report_for_emp_acc_unit_rml"
+           name="payroll.bank.all.rml.acc.unit"
+           auto="False"
+           model="bank.wizard.rml"
+           string="ePayment Schedule"
+           file="bank_report_rml/report/bank_report_acc_unit.rml"
+           header="False"  
+           />
+           
+   <report id="bank_report_for_emp_without_type_unit_rml"
+           name="payroll.bank.all.rml.without.type.unit"
+           auto="False"
+           model="bank.wizard.rml"
+           string="ePayment Schedule"
+           file="bank_report_rml/report/bank_report_without_rml.rml"
+           header="False"  
+           />
+           
+           
+ </data>
+</openerp>
+ 
+

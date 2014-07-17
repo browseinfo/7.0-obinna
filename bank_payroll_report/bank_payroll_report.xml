@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <report id="bank_payroll_report_1"
+            name="bank.payroll.report.all"
+            auto="False"
+            model="bank.payroll.wizard"
+            file="bank_payroll_report/report/bank_payroll_report.mako"
+            string="Payroll Report"
+	    	header="False"
+            webkit_header="bank_report.ir_header_webkit_base_bank_report"
+            report_type="webkit"/>
+            
+       <!--<report id="bank_payroll_report_1"
+            name="bank.payroll.report.all"
+            auto="False"
+            model="bank.payroll.wizard"
+            file="bank_payroll_report/report/bank_payroll_report.rml"
+            string="Payroll Report"
+	    	header="False"    />-->
+       
+       <report id="bank_payroll_consolidate_report_1"
+            name="bank.payroll.consolidate.report.all"
+            auto="False"
+            model="bank.payroll.wizard"
+            file="bank_payroll_report/report/bank_payroll_consolidate_report.mako"
+            string="Payroll Bank Consolidated Report"
+	    	header="False"
+            webkit_header="bank_report.ir_header_webkit_base_bank_report"
+            report_type="webkit"/>
+  </data>
+</openerp>

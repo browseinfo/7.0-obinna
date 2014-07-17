@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+   <report id="bank_report_for_emp"
+           name="payroll.bank.all"
+           auto="False"
+           model="bank.wizard"
+           file="bank_report/report/bank_report.mako"
+           string="ePayment Schedule"
+           header="False"  
+           webkit_header="bank_report.ir_header_webkit_base_bank_report"
+           report_type="webkit"/>
+           
+   <report id="bank_report_for_emp_acc_type"
+           name="payroll.bank.all.account.type"
+           auto="False"
+           model="bank.wizard"
+           string="ePayment Schedule"
+           file="bank_report/report/bank_report_account_type.mako"
+           header="False"  
+           webkit_header="bank_report.ir_header_webkit_base_bank_report"
+           report_type="webkit"/>
+           
+   <report id="bank_report_for_emp_acc_unit"
+           name="payroll.bank.all.acc.unit"
+           auto="False"
+           model="bank.wizard"
+           string="ePayment Schedule"
+           file="bank_report/report/bank_report_acc_unit.mako"
+           header="False"  
+           webkit_header="bank_report.ir_header_webkit_base_bank_report"
+           report_type="webkit"/>
+           
+   <report id="bank_report_for_emp_without_type_unit"
+           name="payroll.bank.all.without.type.unit"
+           auto="False"
+           model="bank.wizard"
+           string="ePayment Schedule"
+           file="bank_report/report/bank_report_all.mako"
+           header="False"  
+           webkit_header="bank_report.ir_header_webkit_base_bank_report"
+           report_type="webkit"/>
+           
+           
+ </data>
+</openerp>
+ 
+

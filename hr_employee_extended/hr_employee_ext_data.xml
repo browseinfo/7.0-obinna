@@ -1,0 +1,4177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+<!-- GRADE LEVEL 01    STEP 01 TO 15 -->
+        <record id="gred_r1_1" model="grade">
+             <field name="name">GRADE LEVEL 01</field>
+        </record>
+
+        <record id="step_r1_a1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r1_a2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r1_a3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r1_a4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r1_a5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r1_a6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r1_a7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r1_a8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r1_a9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r1_a10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r1_a11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+        <record id="step_r1_a12" model="step">
+             <field name="name">STEP 12</field>
+        </record>
+        <record id="step_r1_a13" model="step">
+             <field name="name">STEP 13</field>
+        </record>
+        <record id="step_r1_a14" model="step">
+             <field name="name">STEP 14</field>
+        </record>
+        <record id="step_r1_a15" model="step">
+             <field name="name">STEP 15</field>
+        </record>
+
+        <record id="grade_step_r1_1" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1"/>
+            <field name="step_id" ref="step_r1_a1"/>
+            <field name="wage">105439.80</field>
+            <field name="tax_annum">2268.00</field>
+            <field name="tax_month">189.00</field>
+ 			<field name="housing">4393.36</field>
+			 <field name="transport">2548.13</field>
+			 <field name="utility">1318.00</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">878.67</field>
+			 <field name="peculiar">5670.00 </field>
+			 <field name="consolidated">18900.00 </field>
+        </record>
+
+        <record id="grade_step_r1_2" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1"/>
+            <field name="step_id" ref="step_r1_a2"/>
+            <field name="wage">107630.40</field>
+            <field name="tax_annum">2312.69</field>
+            <field name="tax_month">192.72</field>
+ 			<field name="housing">4484.60</field>
+			 <field name="transport">2601.07</field>
+			 <field name="utility">1345.38</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">896.92</field>
+			 <field name="peculiar"> 5781.75</field>
+			 <field name="consolidated">19272.41 </field>
+        </record>
+
+        <record id="grade_step_r1_3" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1"/>
+            <field name="step_id" ref="step_r1_a3"/>
+            <field name="wage">109821.12</field>
+            <field name="tax_annum">2357.38</field>
+            <field name="tax_month">196.45</field>
+ 			<field name="housing">4575.88</field>
+			 <field name="transport">2654.01</field>
+			 <field name="utility">1372.76</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">915.18</field>
+			 <field name="peculiar"> 5893.42</field>
+			 <field name="consolidated">19644.83 </field>
+        </record>
+
+        <record id="grade_step_r1_4" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1"/>
+            <field name="step_id" ref="step_r1_a4"/>
+            <field name="wage">112011.80</field>
+            <field name="tax_annum">2402.07</field>
+            <field name="tax_month">200.17</field>
+ 			<field name="housing">4667.16</field>
+			 <field name="transport">2706.95</field>
+			 <field name="utility">1345.38</field>
+			 <field name="furniture">1400.15</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">933.43</field>
+			 <field name="peculiar"> 6005.16</field>
+			 <field name="consolidated">20017.23 </field>
+        </record>
+
+        <record id="grade_step_r1_5" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1"/>
+            <field name="step_id" ref="step_r1_a5"/>
+            <field name="wage">114203.04</field>
+            <field name="tax_annum">2446.77</field>
+            <field name="tax_month">203.90</field>
+ 			<field name="housing">4758.46</field>
+			 <field name="transport">2759.91</field>
+			 <field name="utility">1427.54</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">951.69</field>
+			 <field name="peculiar">6116.91 </field>
+			 <field name="consolidated">20389.75 </field>
+        </record>
+
+        <record id="grade_step_r1_6" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1"/>
+            <field name="step_id" ref="step_r1_a6"/>
+            <field name="wage">116393.64</field>
+            <field name="tax_annum">249146</field>
+            <field name="tax_month">207.62</field>
+ 			<field name="housing">4849.74</field>
+			 <field name="transport">2812.85</field>
+			 <field name="utility">1454.92</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">969.95</field>
+			 <field name="peculiar"> 6228.67</field>
+			 <field name="consolidated">20762.16 </field>
+        </record>
+
+        <record id="grade_step_r1_7" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1"/>
+            <field name="step_id" ref="step_r1_a7"/>
+            <field name="wage">118584.36</field>
+            <field name="tax_annum">2536.15</field>
+            <field name="tax_month">211.35</field>
+ 			<field name="housing">4941.02</field>
+			 <field name="transport">2865.79</field>
+			 <field name="utility">1482.30</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">988.20</field>
+			 <field name="peculiar">6340.33 </field>
+			 <field name="consolidated"> 21134.58</field>
+        </record>
+
+        <record id="grade_step_r1_8" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1"/>
+            <field name="step_id" ref="step_r1_a8"/>
+            <field name="wage">120775.08</field>
+            <field name="tax_annum">2580.84</field>
+            <field name="tax_month">215.07</field>
+ 			<field name="housing">5032.30</field>
+			 <field name="transport">2918.73</field>
+			 <field name="utility">1509.69</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1006.46</field>
+			 <field name="peculiar"> 6452.08</field>
+			 <field name="consolidated">21507.00 </field>
+        </record>
+
+        <record id="grade_step_r1_9" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1"/>
+            <field name="step_id" ref="step_r1_a9"/>
+            <field name="wage">122965.80</field>
+            <field name="tax_annum">2625.33</field>
+            <field name="tax_month">218.79</field>
+ 			<field name="housing">5123.58</field>
+			 <field name="transport">2971.67</field>
+			 <field name="utility">1537.07</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1024.72</field>
+			 <field name="peculiar">6563.83 </field>
+			 <field name="consolidated">21879.41 </field>
+        </record>
+
+        <record id="grade_step_r1_10" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1" />
+            <field name="step_id" ref="step_r1_a10" />
+            <field name="wage">125156.88</field>
+            <field name="tax_annum">2670.23</field>
+            <field name="tax_month">222.52</field>
+ 			<field name="housing">5214.87</field>
+			 <field name="transport">3024.62</field>
+			 <field name="utility">1564.46</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1042.97</field>
+			 <field name="peculiar">6675.58 </field>
+			 <field name="consolidated">22251.91 </field>
+        </record>
+
+        <record id="grade_step_r1_11" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1" />
+            <field name="step_id" ref="step_r1_a11" />
+            <field name="wage">127347.60</field>
+            <field name="tax_annum">2714.92</field>
+            <field name="tax_month">226.24</field>
+ 			<field name="housing">5306.15</field>
+			 <field name="transport">3037.57</field>
+			 <field name="utility">1591.85</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1061.23</field>
+			 <field name="peculiar"> 6787.33</field>
+			 <field name="consolidated">22624.33 </field>
+        </record>
+
+        <record id="grade_step_r1_12" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1" />
+            <field name="step_id" ref="step_r1_a12" />
+            <field name="wage">129538.32</field>
+            <field name="tax_annum">2759.61</field>
+            <field name="tax_month">229.97</field>
+ 			<field name="housing">5397.43</field>
+			 <field name="transport">3130.51</field>
+			 <field name="utility">1619.23</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1079.49</field>
+			 <field name="peculiar"> 6899.00</field>
+			 <field name="consolidated"> 22996.75</field>
+        </record>
+
+        <record id="grade_step_r1_13" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1" />
+            <field name="step_id" ref="step_r1_a13" />
+            <field name="wage">131729.04</field>
+            <field name="tax_annum">280430</field>
+            <field name="tax_month">233.69</field>
+ 			<field name="housing">5488.71</field>
+			 <field name="transport">3183.45</field>
+			 <field name="utility">1646.61</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1097.74</field>
+			 <field name="peculiar">7010.75 </field>
+			 <field name="consolidated"> 23369.16</field>
+        </record>
+
+        <record id="grade_step_r1_14" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1" />
+            <field name="step_id" ref="step_r1_a14" />
+            <field name="wage">133919.64</field>
+            <field name="tax_annum">2848.99</field>
+            <field name="tax_month">237.42</field>
+ 			<field name="housing">5579.99</field>
+			 <field name="transport">3236.39</field>
+			 <field name="utility">1674.00</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1116.00</field>
+			 <field name="peculiar">7122.50 </field>
+			 <field name="consolidated">23741.58 </field>
+        </record>
+
+        <record id="grade_step_r1_15" model="grade.step">
+            <field name="grade_id" ref="gred_r1_1" />
+            <field name="step_id" ref="step_r1_a15" />
+            <field name="wage">136110.84</field>
+            <field name="tax_annum">2893.69</field>
+            <field name="tax_month">241</field>
+ 			<field name="housing">5671.29</field>
+			 <field name="transport">3289.35</field>
+			 <field name="utility">1701.39</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1134.26</field>
+			 <field name="peculiar">7234.25 </field>
+			 <field name="consolidated">24114.08 </field>
+        </record>
+
+<!-- GRADE LEVEL 02    STEP 01 TO 15 -->
+        <record id="gred_r2_1" model="grade">
+             <field name="name">GRADE LEVEL 02</field>
+        </record>
+
+        <record id="step_r2_b1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r2_b2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r2_b3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r2_b4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r2_b5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r2_b6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r2_b7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r2_b8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r2_b9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r2_b10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r2_b11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+        <record id="step_r2_b12" model="step">
+             <field name="name">STEP 12</field>
+        </record>
+        <record id="step_r2_b13" model="step">
+             <field name="name">STEP 13</field>
+        </record>
+        <record id="step_r2_b14" model="step">
+             <field name="name">STEP 14</field>
+        </record>
+        <record id="step_r2_b15" model="step">
+             <field name="name">STEP 15</field>
+        </record>
+
+        <record id="grade_step_r2_1" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1"/>
+            <field name="step_id" ref="step_r2_b1"/>
+            <field name="wage">107071.08</field>
+            <field name="tax_annum">2301.28</field>
+            <field name="tax_month">191.77</field>
+ 			<field name="housing">4461.30</field>
+			 <field name="transport">2587.55</field>
+			 <field name="utility">1338.39</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">892.26</field>
+			 <field name="peculiar">5753.16 </field>
+			 <field name="consolidated">19177.34 </field>
+        </record>
+
+        <record id="grade_step_r2_2" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b2" />
+            <field name="wage">109935.36</field>
+            <field name="tax_annum">2959.71</field>
+            <field name="tax_month">196.64</field>
+ 			<field name="housing">4580.64</field>
+			 <field name="transport">2656.77</field>
+			 <field name="utility">1374.19</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">916.13</field>
+			 <field name="peculiar"> 5899.25</field>
+			 <field name="consolidated"> 19664.25</field>
+        </record>
+
+        <record id="grade_step_r2_3" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b3" />
+            <field name="wage">112800.00</field>
+            <field name="tax_annum">2418.15</field>
+            <field name="tax_month">201.51</field>
+ 			<field name="housing">4700.00</field>
+			 <field name="transport">2726.00</field>
+			 <field name="utility">1410.00</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">940.00</field>
+			 <field name="peculiar"> 6045.33</field>
+			 <field name="consolidated">20151.25 </field>
+        </record>
+
+        <record id="grade_step_r2_4" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b4" />
+            <field name="wage">115664.28</field>
+            <field name="tax_annum">2476.58</field>
+            <field name="tax_month">206.38</field>
+ 			<field name="housing">4819.35</field>
+			 <field name="transport">2795.22</field>
+			 <field name="utility">1445.80</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">963.87</field>
+			 <field name="peculiar"> 6191.41</field>
+			 <field name="consolidated">20638.16 </field>
+        </record>
+
+        <record id="grade_step_r2_5" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b5" />
+            <field name="wage">118528.44</field>
+            <field name="tax_annum">2535.01</field>
+            <field name="tax_month">211.15</field>
+ 			<field name="housing">4938.69</field>
+			 <field name="transport">2864.44</field>
+			 <field name="utility">1481.61</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">987.74</field>
+			 <field name="peculiar">6337.50 </field>
+			 <field name="consolidated">21125.08 </field>
+        </record>
+
+        <record id="grade_step_r2_6" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b6" />
+            <field name="wage">121393.20</field>
+            <field name="tax_annum">2593.45</field>
+            <field name="tax_month">216.12</field>
+ 			<field name="housing">5058.05</field>
+			 <field name="transport">2933.67</field>
+			 <field name="utility">1517.42</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1011.61</field>
+			 <field name="peculiar">6483.58 </field>
+			 <field name="consolidated">21612.08 </field>
+        </record>
+        
+        <record id="grade_step_r2_7" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b7" />
+            <field name="wage">124257.36</field>
+            <field name="tax_annum">2651.88</field>
+            <field name="tax_month">220.99</field>
+ 			<field name="housing">5177.39</field>
+			 <field name="transport">3002.89</field>
+			 <field name="utility">1553.22</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1035.48</field>
+			 <field name="peculiar"> 6629.66</field>
+			 <field name="consolidated">22099.00 </field>
+        </record>
+        <record id="grade_step_r2_8" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b8" />
+            <field name="wage">127122.12</field>
+            <field name="tax_annum">271032</field>
+            <field name="tax_month">225.86</field>
+ 			<field name="housing">5296.76</field>
+			 <field name="transport">3072.12</field>
+			 <field name="utility">1589.03</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1059.35</field>
+			 <field name="peculiar"> 6775.83</field>
+			 <field name="consolidated">22586.00 </field>
+        </record>
+
+        <record id="grade_step_r2_9" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b9" />
+            <field name="wage">128986.28</field>
+            <field name="tax_annum">2768.75</field>
+            <field name="tax_month">230.73</field>
+ 			<field name="housing">5416.10</field>
+			 <field name="transport">3141.34</field>
+			 <field name="utility">1624.83</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1083.22</field>
+			 <field name="peculiar">6921.91 </field>
+			 <field name="consolidated"> 23072.91</field>
+        </record>
+
+        <record id="grade_step_r2_10" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b10" />
+            <field name="wage">132850.56</field>
+            <field name="tax_annum">282718</field>
+            <field name="tax_month">235.60</field>
+ 			<field name="housing">5535.44</field>
+			 <field name="transport">3210.56</field>
+			 <field name="utility">1660.63</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1107.09</field>
+			 <field name="peculiar"> 7068.00</field>
+			 <field name="consolidated">23559.83 </field>
+        </record>
+        <record id="grade_step_r2_11" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b11" />
+            <field name="wage">135715.20</field>
+            <field name="tax_annum">2885.62</field>
+            <field name="tax_month">240.47</field>
+ 			<field name="housing">5654.80</field>
+			 <field name="transport">3279.78</field>
+			 <field name="utility">1696.44</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1130.96</field>
+			 <field name="peculiar">7214.08 </field>
+			 <field name="consolidated">24046.83 </field>
+        </record>
+
+        <record id="grade_step_r2_12" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b12" />
+            <field name="wage">138579.48</field>
+            <field name="tax_annum">2944.05</field>
+            <field name="tax_month">245.34</field>
+ 			<field name="housing">5774.15</field>
+			 <field name="transport">3349.00</field>
+			 <field name="utility">1732.24</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1154.83</field>
+			 <field name="peculiar">7360.16 </field>
+			 <field name="consolidated"> 24533.75</field>
+        </record>
+
+        <record id="grade_step_r2_13" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b13" />
+            <field name="wage">141444.12</field>
+            <field name="tax_annum">3002.49</field>
+            <field name="tax_month">250.21</field>
+ 			<field name="housing">5893.51</field>
+			 <field name="transport">3418.23</field>
+			 <field name="utility">1768.05</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1178.70</field>
+			 <field name="peculiar"> 7506.25</field>
+			 <field name="consolidated">25020.75 </field>
+        </record>
+
+        <record id="grade_step_r2_14" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b14" />
+            <field name="wage">144308.40</field>
+            <field name="tax_annum">3060.92</field>
+            <field name="tax_month">255.08</field>
+ 			<field name="housing">6012.85</field>
+			 <field name="transport">3487.45</field>
+			 <field name="utility">1803.86</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1202.57</field>
+			 <field name="peculiar">7652.33 </field>
+			 <field name="consolidated"> 25507.66</field>
+        </record>
+
+        <record id="grade_step_r2_15" model="grade.step">
+            <field name="grade_id" ref="gred_r2_1" />
+            <field name="step_id" ref="step_r2_b15" />
+            <field name="wage">147172.56</field>
+            <field name="tax_annum">3119.35</field>
+            <field name="tax_month">259</field>
+ 			<field name="housing">6132.19</field>
+			 <field name="transport">3556.67</field>
+			 <field name="utility">1839.66</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1226.44</field>
+			 <field name="peculiar">7798.42 </field>
+			 <field name="consolidated">25994.58 </field>
+        </record>
+
+<!-- GRADE LEVEL 03    STEP 01 TO 15 -->
+        <record id="gred_r3_1" model="grade">
+             <field name="name">GRADE LEVEL 03</field>
+        </record>
+
+        <record id="step_r3_c1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r3_c2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r3_c3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r3_c4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r3_c5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r3_c6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r3_c7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r3_c8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r3_c9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r3_c10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r3_c11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+        <record id="step_r3_c12" model="step">
+             <field name="name">STEP 12</field>
+        </record>
+        <record id="step_r3_c13" model="step">
+             <field name="name">STEP 13</field>
+        </record>
+        <record id="step_r3_c14" model="step">
+             <field name="name">STEP 14</field>
+        </record>
+        <record id="step_r3_c15" model="step">
+             <field name="name">STEP 15</field>
+        </record>
+
+        <record id="grade_step_r3_1" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1"/>
+            <field name="step_id" ref="step_r3_c1"/>
+            <field name="wage">108464.28</field>
+            <field name="tax_annum">2329.70</field>
+            <field name="tax_month">194.14</field>
+ 			<field name="housing">4519.35</field>
+			 <field name="transport">2621.22</field>
+			 <field name="utility">1355.80</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">903.87</field>
+			 <field name="peculiar">5824.25 </field>
+			 <field name="consolidated">19414.16 </field>
+        </record>
+        <record id="grade_step_r3_2" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c2" />
+            <field name="wage">111984.84</field>
+            <field name="tax_annum">2401.52</field>
+            <field name="tax_month">200.13</field>
+ 			<field name="housing">4666.04</field>
+			 <field name="transport">2706.30</field>
+			 <field name="utility">1399.81</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">933.21</field>
+			 <field name="peculiar"> 6003.83</field>
+			 <field name="consolidated">20012.66 </field>
+        </record>
+        <record id="grade_step_r3_3" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c3" />
+            <field name="wage">115505.40</field>
+            <field name="tax_annum">2473.34</field>
+            <field name="tax_month">206.11</field>
+ 			<field name="housing">4812.73</field>
+			 <field name="transport">2791.38</field>
+			 <field name="utility">1443.82</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">962.55</field>
+			 <field name="peculiar"> 6183.33</field>
+			 <field name="consolidated">20611.16 </field>
+        </record>
+        <record id="grade_step_r3_4" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c4" />
+            <field name="wage">119026.56</field>
+            <field name="tax_annum">2545.17</field>
+            <field name="tax_month">212.10</field>
+ 			<field name="housing">4959.44</field>
+			 <field name="transport">2876.48</field>
+			 <field name="utility">1487.83</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">991.89</field>
+			 <field name="peculiar"> 6362.91</field>
+			 <field name="consolidated">21209.75 </field>
+        </record>
+        <record id="grade_step_r3_5" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c5" />
+            <field name="wage">122547.12</field>
+            <field name="tax_annum">2616.99</field>
+            <field name="tax_month">218.08</field>
+ 			<field name="housing">5106.13</field>
+			 <field name="transport">2961.56</field>
+			 <field name="utility">1531.84</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1021.23</field>
+			 <field name="peculiar">6542.50 </field>
+			 <field name="consolidated">21808.25 </field>
+        </record>
+        <record id="grade_step_r3_6" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c6" />
+            <field name="wage">126067.68</field>
+            <field name="tax_annum">2688.81</field>
+            <field name="tax_month">224.07</field>
+ 			<field name="housing">5252.82</field>
+			 <field name="transport">3046.64</field>
+			 <field name="utility">1575.85</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1050.56</field>
+			 <field name="peculiar">6722.00 </field>
+			 <field name="consolidated">22406.75 </field>
+        </record>
+        <record id="grade_step_r3_7" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c7" />
+            <field name="wage">129588.84</field>
+            <field name="tax_annum">276064</field>
+            <field name="tax_month">230.05</field>
+ 			<field name="housing">5399.54</field>
+			 <field name="transport">3131.73</field>
+			 <field name="utility">1619.86</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1079.91</field>
+			 <field name="peculiar"> 6901.58</field>
+			 <field name="consolidated">23005.33 </field>
+        </record>
+        <record id="grade_step_r3_8" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c8" />
+            <field name="wage">133109.40</field>
+            <field name="tax_annum">2832.46</field>
+            <field name="tax_month">236.04</field>
+ 			<field name="housing">5546.23</field>
+			 <field name="transport">3216.81</field>
+			 <field name="utility">1663.87</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1109.25</field>
+			 <field name="peculiar">7081.16 </field>
+			 <field name="consolidated">23603.83 </field>
+        </record>
+        <record id="grade_step_r3_9" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c9" />
+            <field name="wage">136629.96</field>
+            <field name="tax_annum">2904.28</field>
+            <field name="tax_month">242.02</field>
+ 			<field name="housing">5692.92</field>
+			 <field name="transport">3301.89</field>
+			 <field name="utility">1707.87</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1138.58</field>
+			 <field name="peculiar">7260.75 </field>
+			 <field name="consolidated"> 24202.33</field>
+        </record>
+        <record id="grade_step_r3_10" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c10" />
+            <field name="wage">140151.00</field>
+            <field name="tax_annum">2976.11</field>
+            <field name="tax_month">248.01</field>
+ 			<field name="housing">5839.63</field>
+			 <field name="transport">3386.98</field>
+			 <field name="utility">1751.89</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1167.93</field>
+			 <field name="peculiar">7440.25 </field>
+			 <field name="consolidated">24800.91 </field>
+        </record>
+        <record id="grade_step_r3_11" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c11" />
+            <field name="wage">143671.68</field>
+            <field name="tax_annum">3047.93</field>
+            <field name="tax_month">253.99</field>
+ 			<field name="housing">5986.32</field>
+			 <field name="transport">3472.07</field>
+			 <field name="utility">1795.90</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1197.26</field>
+			 <field name="peculiar">7619.83 </field>
+			 <field name="consolidated">25399.41 </field>
+        </record>
+        <record id="grade_step_r3_12" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c12" />
+            <field name="wage">147192.24</field>
+            <field name="tax_annum">3119.75</field>
+            <field name="tax_month">269.98</field>
+ 			<field name="housing">6133.01</field>
+			 <field name="transport">3557.15</field>
+			 <field name="utility">1839.90</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1226.60</field>
+			 <field name="peculiar"> 7799.41</field>
+			 <field name="consolidated">25997.91 </field>
+        </record>
+        <record id="grade_step_r3_13" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c13" />
+            <field name="wage">150713.28</field>
+            <field name="tax_annum">3181.58</field>
+            <field name="tax_month">265.97</field>
+ 			<field name="housing">6279.72</field>
+			 <field name="transport">3642.24</field>
+			 <field name="utility">1883.92</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1255.94</field>
+			 <field name="peculiar">7978.91 </field>
+			 <field name="consolidated"> 26596.50</field>
+        </record>
+        <record id="grade_step_r3_14" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c14" />
+            <field name="wage">154233.84</field>
+            <field name="tax_annum">3263.40</field>
+            <field name="tax_month">271.95</field>
+ 			<field name="housing">6426.41</field>
+			 <field name="transport">3727.32</field>
+			 <field name="utility">1927.92</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1285.28</field>
+			 <field name="peculiar">8158.50 </field>
+			 <field name="consolidated">27195.00 </field>
+        </record>
+        
+        <record id="grade_step_r3_15" model="grade.step">
+            <field name="grade_id" ref="gred_r3_1" />
+            <field name="step_id" ref="step_r3_c15" />
+            <field name="wage">157754.52</field>
+            <field name="tax_annum">3335.22</field>
+            <field name="tax_month">227.9</field>
+ 			<field name="housing">6573.11</field>
+			 <field name="transport">3812.40</field>
+			 <field name="utility">1971.93</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1314.62</field>
+			 <field name="peculiar"> 8338.08</field>
+			 <field name="consolidated">27793.50 </field>
+        </record>
+
+<!-- GRADE LEVEL 04    STEP 01 TO 15 -->
+        <record id="gred_r4_1" model="grade">
+             <field name="name">GRADE LEVEL 04</field>
+        </record>
+
+        <record id="step_r4_d1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r4_d2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r4_d3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r4_d4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r4_d5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r4_d6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r4_d7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r4_d8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r4_d9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r4_d10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r4_d11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+        <record id="step_r4_d12" model="step">
+             <field name="name">STEP 12</field>
+        </record>
+        <record id="step_r4_d13" model="step">
+             <field name="name">STEP 13</field>
+        </record>
+        <record id="step_r4_d14" model="step">
+             <field name="name">STEP 14</field>
+        </record>
+        <record id="step_r4_d15" model="step">
+             <field name="name">STEP 15</field>
+        </record>
+
+        <record id="grade_step_r4_1" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1"/>
+            <field name="step_id" ref="step_r4_d1"/>
+            <field name="wage">113378.04</field>
+            <field name="tax_annum">2429.94</field>
+            <field name="tax_month">202.50</field>
+ 			<field name="housing">4724.09</field>
+			 <field name="transport">2739.97</field>
+			 <field name="utility">1417.23</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">944.82</field>
+			 <field name="peculiar"> 6074.83</field>
+			 <field name="consolidated">20249.50 </field>
+        </record>
+
+        <record id="grade_step_r4_2" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d2" />
+            <field name="wage">117607.92</field>
+            <field name="tax_annum">2516.23</field>
+            <field name="tax_month">209.69</field>
+ 			<field name="housing">4900.33</field>
+			 <field name="transport">2842.19</field>
+			 <field name="utility">1470.10</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">980.07</field>
+			 <field name="peculiar"> 6290.58</field>
+			 <field name="consolidated">20968.58 </field>
+        </record>
+
+        <record id="grade_step_r4_3" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d3" />
+            <field name="wage">121837.32</field>
+            <field name="tax_annum">2602.51</field>
+            <field name="tax_month">216.88</field>
+ 			<field name="housing">5076.56</field>
+			 <field name="transport">2944.40</field>
+			 <field name="utility">1522.97</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1015.31</field>
+			 <field name="peculiar"> 6506.25</field>
+			 <field name="consolidated">21687.58 </field>
+        </record>
+
+        <record id="grade_step_r4_4" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d4" />
+            <field name="wage">126067.20</field>
+            <field name="tax_annum">2688.80</field>
+            <field name="tax_month">224.07</field>
+ 			<field name="housing">5252.80</field>
+			 <field name="transport">3046.62</field>
+			 <field name="utility">1575.84</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1050.56</field>
+			 <field name="peculiar">6722.00 </field>
+			 <field name="consolidated">22406.66 </field>
+        </record>
+        <record id="grade_step_r4_5" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d5" />
+            <field name="wage">130297.08</field>
+            <field name="tax_annum">2775.09</field>
+            <field name="tax_month">231.26</field>
+ 			<field name="housing">5429.05</field>
+			 <field name="transport">3148.85</field>
+			 <field name="utility">1628.71</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1085.81</field>
+			 <field name="peculiar">6937.75 </field>
+			 <field name="consolidated">23125.75 </field>
+        </record>
+        <record id="grade_step_r4_6" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d6" />
+            <field name="wage">134526.48</field>
+            <field name="tax_annum">2861.87</field>
+            <field name="tax_month">238.40</field>
+ 			<field name="housing">5605.27</field>
+			 <field name="transport">3251.06</field>
+			 <field name="utility">1681.58</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1121.05</field>
+			 <field name="peculiar"> 7153.41</field>
+			 <field name="consolidated">23844.75 </field>
+        </record>
+        
+        
+        <record id="grade_step_r4_7" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d7" />
+            <field name="wage">138756.48</field>
+            <field name="tax_annum">2947.66</field>
+            <field name="tax_month">245.64</field>
+ 			<field name="housing">5781.52</field>
+			 <field name="transport">3353.28</field>
+			 <field name="utility">1734.46</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1156.30</field>
+			 <field name="peculiar">7369.16 </field>
+			 <field name="consolidated"> 24563.83</field>
+        </record>
+        
+        
+        <record id="grade_step_r4_8" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d8" />
+            <field name="wage">142985.88</field>
+            <field name="tax_annum">3033.94</field>
+            <field name="tax_month">252.83</field>
+ 			<field name="housing">5957.75</field>
+			 <field name="transport">3455.49</field>
+			 <field name="utility">1787.32</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1191.55</field>
+			 <field name="peculiar">7584.83 </field>
+			 <field name="consolidated">25282.83 </field>
+        </record>
+        
+        
+        <record id="grade_step_r4_9" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d9" />
+            <field name="wage">147215.76</field>
+            <field name="tax_annum">3120.23</field>
+            <field name="tax_month">260.02</field>
+ 			<field name="housing">6133.99</field>
+			 <field name="transport">3557.71</field>
+			 <field name="utility">1840.20</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1226.80</field>
+			 <field name="peculiar">7800.58 </field>
+			 <field name="consolidated">26001.91 </field>
+        </record>
+        
+        <record id="grade_step_r4_10" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d10" />
+            <field name="wage">151445.16</field>
+            <field name="tax_annum">3206.51</field>
+            <field name="tax_month">267.21</field>
+ 			<field name="housing">6310.22</field>
+			 <field name="transport">3659.92</field>
+			 <field name="utility">1893.06</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1262.04</field>
+			 <field name="peculiar"> 8016.25</field>
+			 <field name="consolidated">26720.91 </field>
+        </record>
+        <record id="grade_step_r4_11" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d11" />
+            <field name="wage">155675.04</field>
+            <field name="tax_annum">3292.80</field>
+            <field name="tax_month">274.40</field>
+ 			<field name="housing">6486.46</field>
+			 <field name="transport">3762.15</field>
+			 <field name="utility">1945.94</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1297.29</field>
+			 <field name="peculiar"> 8232.00</field>
+			 <field name="consolidated">27440.00 </field>
+        </record>
+        
+        <record id="grade_step_r4_12" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d12" />
+            <field name="wage">159904.92</field>
+            <field name="tax_annum">3379.09</field>
+            <field name="tax_month">281.59</field>
+ 			<field name="housing">6662.71</field>
+			 <field name="transport">3864.37</field>
+			 <field name="utility">1998.81</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1332.54</field>
+			 <field name="peculiar"> 8447.75</field>
+			 <field name="consolidated">28159.08 </field>
+        </record>
+        
+        
+        <record id="grade_step_r4_13" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d13" />
+            <field name="wage">164134.32</field>
+            <field name="tax_annum">3465.37</field>
+            <field name="tax_month">288.78</field>
+ 			<field name="housing">6838.93</field>
+			 <field name="transport">3966.58</field>
+			 <field name="utility">2051.68</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1367.79</field>
+			 <field name="peculiar">8663.41 </field>
+			 <field name="consolidated">28878.08 </field>
+        </record>
+        
+        <record id="grade_step_r4_14" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d14" />
+            <field name="wage">168364.32</field>
+            <field name="tax_annum">3551.66</field>
+            <field name="tax_month">295.97</field>
+ 			<field name="housing">7015.18</field>
+			 <field name="transport">4068.80</field>
+			 <field name="utility">2104.55</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1403.04</field>
+			 <field name="peculiar">8879.17 </field>
+			 <field name="consolidated">29597.16 </field>
+        </record>
+        
+        <record id="grade_step_r4_15" model="grade.step">
+            <field name="grade_id" ref="gred_r4_1" />
+            <field name="step_id" ref="step_r4_d15" />
+            <field name="wage">172593.72</field>
+            <field name="tax_annum">3637.94</field>
+            <field name="tax_month">303</field>
+ 			<field name="housing">7191.41</field>
+			 <field name="transport">4171.01</field>
+			 <field name="utility">2157.42</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1438.28</field>
+			 <field name="peculiar">9094.83 </field>
+			 <field name="consolidated">30316.16 </field>
+        </record>
+
+<!-- GRADE LEVEL 05    STEP 01 TO 15 -->
+        <record id="gred_r5_1" model="grade">
+             <field name="name">GRADE LEVEL 05</field>
+        </record>
+
+        <record id="step_r5_e1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r5_e2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r5_e3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r5_e4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r5_e5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r5_e6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r5_e7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r5_e8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r5_e9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r5_e10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r5_e11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+        <record id="step_r5_e12" model="step">
+             <field name="name">STEP 12</field>
+        </record>
+        <record id="step_r5_e13" model="step">
+             <field name="name">STEP 13</field>
+        </record>
+        <record id="step_r5_e14" model="step">
+             <field name="name">STEP 14</field>
+        </record>
+        <record id="step_r5_e15" model="step">
+             <field name="name">STEP 15</field>
+        </record>
+
+        <record id="grade_step_r5_1" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1"/>
+            <field name="step_id" ref="step_r5_e1"/>
+            <field name="wage">122350.56</field>
+            <field name="tax_annum">2162.98</field>
+            <field name="tax_month">217.75</field>
+ 			<field name="housing">5097.94</field>
+			 <field name="transport">2956.81</field>
+			 <field name="utility">1529.38</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1019.59</field>
+			 <field name="peculiar"> 6532.41</field>
+			 <field name="consolidated">21774.83 </field>
+        </record>
+
+        <record id="grade_step_r5_2" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e2" />
+            <field name="wage">127264.32</field>
+            <field name="tax_annum">2713.22</field>
+            <field name="tax_month">226.10</field>
+ 			<field name="housing">5302.68</field>
+			 <field name="transport">3075.55</field>
+			 <field name="utility">1590.80</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1060.54</field>
+			 <field name="peculiar"> 6783.08</field>
+			 <field name="consolidated"> 22610.16</field>
+        </record>
+
+        <record id="grade_step_r5_3" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e3" />
+            <field name="wage">132177.96</field>
+            <field name="tax_annum">2813.46</field>
+            <field name="tax_month">234.46</field>
+ 			<field name="housing">5507.42</field>
+			 <field name="transport">3194.30</field>
+			 <field name="utility">1652.22</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1101.48</field>
+			 <field name="peculiar"> 7033.67</field>
+			 <field name="consolidated">23445.50 </field>
+        </record>
+
+        <record id="grade_step_r5_4" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e4" />
+            <field name="wage">137091.72</field>
+            <field name="tax_annum">2913.70</field>
+            <field name="tax_month">242.81</field>
+ 			<field name="housing">5712.16</field>
+			 <field name="transport">3313.05</field>
+			 <field name="utility">1713.65</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1142.43</field>
+			 <field name="peculiar"> 7284.25</field>
+			 <field name="consolidated"> 24280.83</field>
+        </record>
+
+        <record id="grade_step_r5_5" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e5" />
+            <field name="wage">142005.96</field>
+            <field name="tax_annum">3013.95</field>
+            <field name="tax_month">251.16</field>
+ 			<field name="housing">5916.92</field>
+			 <field name="transport">3431.81</field>
+			 <field name="utility">1775.07</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1183.38</field>
+			 <field name="peculiar"> 7534.83</field>
+			 <field name="consolidated">25116.25 </field>
+        </record>
+
+        <record id="grade_step_r5_6" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e6" />
+            <field name="wage">146919.72</field>
+            <field name="tax_annum">3114.19</field>
+            <field name="tax_month">159.52</field>
+ 			<field name="housing">6121.66</field>
+			 <field name="transport">3550.56</field>
+			 <field name="utility">1836.50</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1224.33</field>
+			 <field name="peculiar">7785.50 </field>
+			 <field name="consolidated">25951.58 </field>
+        </record>
+
+        <record id="grade_step_r5_7" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e7" />
+            <field name="wage">151833.36</field>
+            <field name="tax_annum">3214.43</field>
+            <field name="tax_month">267.87</field>
+ 			<field name="housing">6326.39</field>
+			 <field name="transport">3669.31</field>
+			 <field name="utility">1897.92</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1265.28</field>
+			 <field name="peculiar"> 8036.08</field>
+			 <field name="consolidated">26786.91 </field>
+        </record>
+        <record id="grade_step_r5_8" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e8" />
+            <field name="wage">156747.60</field>
+            <field name="tax_annum">331468</field>
+            <field name="tax_month">276.22</field>
+ 			<field name="housing">6531.15</field>
+			 <field name="transport">3788.07</field>
+			 <field name="utility">1959.35</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1306.23</field>
+			 <field name="peculiar"> 8286.66</field>
+			 <field name="consolidated">27622.33 </field>
+        </record>
+        <record id="grade_step_r5_9" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e9" />
+            <field name="wage">161661.36</field>
+            <field name="tax_annum">3414.92</field>
+            <field name="tax_month">284.58</field>
+ 			<field name="housing">6735.89</field>
+			 <field name="transport">3906.82</field>
+			 <field name="utility">2020.77</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1347.18</field>
+			 <field name="peculiar"> 8537.33</field>
+			 <field name="consolidated">28457.66 </field>
+        </record>
+        <record id="grade_step_r5_10" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e10" />
+            <field name="wage">166575.00</field>
+            <field name="tax_annum">3515.16</field>
+            <field name="tax_month">292.93</field>
+ 			<field name="housing">6940.63</field>
+			 <field name="transport">4025.56</field>
+			 <field name="utility">2082.19</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1388.13</field>
+			 <field name="peculiar"> 8787.91</field>
+			 <field name="consolidated">29293.00 </field>
+        </record>
+        
+        <record id="grade_step_r5_11" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e11" />
+            <field name="wage">171488.76</field>
+            <field name="tax_annum">3715.46</field>
+            <field name="tax_month">309.62</field>
+ 			<field name="housing">7145.37</field>
+			 <field name="transport">4144.31</field>
+			 <field name="utility">2143.61</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1429.07</field>
+			 <field name="peculiar">9038.50 </field>
+			 <field name="consolidated">30128.33 </field>
+        </record>
+        
+        <record id="grade_step_r5_12" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e12" />
+            <field name="wage">176403.00</field>
+            <field name="tax_annum">4206.69</field>
+            <field name="tax_month">350.56</field>
+ 			<field name="housing">7350.13</field>
+			 <field name="transport">4263.07</field>
+			 <field name="utility">2205.04</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1470.03</field>
+			 <field name="peculiar">9289.08 </field>
+			 <field name="consolidated">30963.75 </field>
+        </record>
+        
+        
+        <record id="grade_step_r5_13" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e13" />
+            <field name="wage">181316.76</field>
+            <field name="tax_annum">4697.86</field>
+            <field name="tax_month">391.49</field>
+ 			<field name="housing">7554.87</field>
+			 <field name="transport">4381.82</field>
+			 <field name="utility">2266.46</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1510.97</field>
+			 <field name="peculiar">9539.75 </field>
+			 <field name="consolidated">31799.08 </field>
+        </record>
+        
+        
+        <record id="grade_step_r5_14" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e14" />
+            <field name="wage">186230.40</field>
+            <field name="tax_annum">5189.04</field>
+            <field name="tax_month">432.42</field>
+ 			<field name="housing">7759.60</field>
+			 <field name="transport">4500.57</field>
+			 <field name="utility">2327.88</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1551.92</field>
+			 <field name="peculiar"> 9790.33</field>
+			 <field name="consolidated">32634.41 </field>
+        </record>
+        
+        
+        <record id="grade_step_r5_15" model="grade.step">
+            <field name="grade_id" ref="gred_r5_1" />
+            <field name="step_id" ref="step_r5_e15" />
+            <field name="wage">191144.16</field>
+            <field name="tax_annum">5680.2</field>
+            <field name="tax_month">473</field>
+ 			<field name="housing">7964.34</field>
+			 <field name="transport">4619.32</field>
+			 <field name="utility">2389.30</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1592.87</field>
+			 <field name="peculiar"> 10048.92</field>
+			 <field name="consolidated">33469.75 </field>
+        </record>
+
+<!-- GRADE LEVEL 06    STEP 01 TO 15 -->
+        <record id="gred_r6_1" model="grade">
+             <field name="name">GRADE LEVEL 06</field>
+        </record>
+        <record id="step_r6_f1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r6_f2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r6_f3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r6_f4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r6_f5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r6_f6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r6_f7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r6_f8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r6_f9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r6_f10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r6_f11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+        <record id="step_r6_f12" model="step">
+             <field name="name">STEP 12</field>
+        </record>
+        <record id="step_r6_f13" model="step">
+             <field name="name">STEP 13</field>
+        </record>
+        <record id="step_r6_f14" model="step">
+             <field name="name">STEP 14</field>
+        </record>
+        <record id="step_r6_f15" model="step">
+             <field name="name">STEP 15</field>
+        </record>
+
+        <record id="grade_step_r6_1" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1"/>
+            <field name="step_id" ref="step_r6_f1"/>
+            <field name="wage">149277.48</field>
+            <field name="tax_annum">3162.29</field>
+            <field name="tax_month">263.52</field>
+ 			<field name="housing">6219.90</field>
+			 <field name="transport">3607.54</field>
+			 <field name="utility">1865.97</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1243.98</field>
+			 <field name="peculiar"> 7905.75</field>
+			 <field name="consolidated">26352.41 </field>
+        </record>
+
+        <record id="grade_step_r6_2" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f2" />
+            <field name="wage">155267.16</field>
+            <field name="tax_annum">3284.48</field>
+            <field name="tax_month">273.71</field>
+ 			<field name="housing">6469.47</field>
+			 <field name="transport">3752.29</field>
+			 <field name="utility">1940.84</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1293.89</field>
+			 <field name="peculiar"> 8216.16</field>
+			 <field name="consolidated">27370.66 </field>
+        </record>
+
+        <record id="grade_step_r6_3" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f3" />
+            <field name="wage">161256.96</field>
+            <field name="tax_annum">3406.67</field>
+            <field name="tax_month">283.89</field>
+ 			<field name="housing">6719.04</field>
+			 <field name="transport">3897.04</field>
+			 <field name="utility">2015.71</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1343.81</field>
+			 <field name="peculiar">8516.66 </field>
+			 <field name="consolidated">28388.91 </field>
+        </record>
+        <record id="grade_step_r6_4" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f4" />
+            <field name="wage">167246.64</field>
+            <field name="tax_annum">3528.86</field>
+            <field name="tax_month">294.07</field>
+ 			<field name="housing">6968.61</field>
+			 <field name="transport">4041.79</field>
+			 <field name="utility">2090.58</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1393.72</field>
+			 <field name="peculiar"> 8822.16</field>
+			 <field name="consolidated"> 29407.16</field>
+        </record>
+        
+        <record id="grade_step_r6_5" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f5" />
+            <field name="wage">173236.32</field>
+            <field name="tax_annum">389015</field>
+            <field name="tax_month">324.00</field>
+ 			<field name="housing">7218.18</field>
+			 <field name="transport">4186.54</field>
+			 <field name="utility">2165.45</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1443.64</field>
+			 <field name="peculiar">9127.58 </field>
+			 <field name="consolidated">30425.41 </field>
+        </record>
+        
+        <record id="grade_step_r6_6" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f6" />
+            <field name="wage">179226.00</field>
+            <field name="tax_annum">4488.88</field>
+            <field name="tax_month">374.07</field>
+ 			<field name="housing">7467.75</field>
+			 <field name="transport">4331.30</field>
+			 <field name="utility">2240.33</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1493.55</field>
+			 <field name="peculiar"> 9433.09</field>
+			 <field name="consolidated">31443.66 </field>
+        </record>
+        
+        <record id="grade_step_r6_7" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f7" />
+            <field name="wage">185215.80</field>
+            <field name="tax_annum">5087.61</field>
+            <field name="tax_month">423.97</field>
+ 			<field name="housing">7717.33</field>
+			 <field name="transport">4476.05</field>
+			 <field name="utility">2315.20</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1543.47</field>
+			 <field name="peculiar">9738.58 </field>
+			 <field name="consolidated">32461.91 </field>
+        </record>
+        
+        <record id="grade_step_r6_8" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f8" />
+            <field name="wage">191205.48</field>
+            <field name="tax_annum">5686.34</field>
+            <field name="tax_month">473.86</field>
+ 			<field name="housing">7966.90</field>
+			 <field name="transport">4620.80</field>
+			 <field name="utility">2390.07</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1593.38</field>
+			 <field name="peculiar">10044.00 </field>
+			 <field name="consolidated">33480.16 </field>
+        </record>
+        <record id="grade_step_r6_9" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f9" />
+            <field name="wage">197195.16</field>
+            <field name="tax_annum">6285.07</field>
+            <field name="tax_month">523.76</field>
+ 			<field name="housing">8216.47</field>
+			 <field name="transport">4765.55</field>
+			 <field name="utility">2464.94</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1643.29</field>
+			 <field name="peculiar">10349.50 </field>
+			 <field name="consolidated">34498.41 </field>
+        </record>
+        <record id="grade_step_r6_10" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f10" />
+            <field name="wage">203186.84</field>
+            <field name="tax_annum">6883.80</field>
+            <field name="tax_month">573.65</field>
+ 			<field name="housing">8466.04</field>
+			 <field name="transport">4910.30</field>
+			 <field name="utility">2539.81</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1693.21</field>
+			 <field name="peculiar">10655.00 </field>
+			 <field name="consolidated"> 35516.66</field>
+        </record>
+        
+        <record id="grade_step_r6_11" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f11" />
+            <field name="wage">209174.52</field>
+            <field name="tax_annum">7482.53</field>
+            <field name="tax_month">623.54</field>
+ 			<field name="housing">8715.61</field>
+			 <field name="transport">5055.05</field>
+			 <field name="utility">2614.68</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1743.12</field>
+			 <field name="peculiar">10960.50 </field>
+			 <field name="consolidated">36534.91 </field>
+        </record>
+        
+        <record id="grade_step_r6_12" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f12" />
+            <field name="wage">215164.32</field>
+            <field name="tax_annum">8081.26</field>
+            <field name="tax_month">673.44</field>
+ 			<field name="housing">8965.18</field>
+			 <field name="transport">5199.80</field>
+			 <field name="utility">2689.55</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1793.04</field>
+			 <field name="peculiar">11265.91 </field>
+			 <field name="consolidated">37553.16 </field>
+        </record>
+        
+        <record id="grade_step_r6_13" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f13" />
+            <field name="wage">221154.00</field>
+            <field name="tax_annum">8679.99</field>
+            <field name="tax_month">723.33</field>
+ 			<field name="housing">9214.75</field>
+			 <field name="transport">5344.56</field>
+			 <field name="utility">2764.43</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1842.95</field>
+			 <field name="peculiar"> 11571.41</field>
+			 <field name="consolidated">38571.41 </field>
+        </record>
+        
+        <record id="grade_step_r6_14" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f14" />
+            <field name="wage">227143.68</field>
+            <field name="tax_annum">9278.72</field>
+            <field name="tax_month">723.23</field>
+ 			<field name="housing">9464.32</field>
+			 <field name="transport">5489.31</field>
+			 <field name="utility">2839.30</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1892.86</field>
+			 <field name="peculiar">11876.92 </field>
+			 <field name="consolidated">39589.66 </field>
+        </record>
+        
+        
+        <record id="grade_step_r6_15" model="grade.step">
+            <field name="grade_id" ref="gred_r6_1" />
+            <field name="step_id" ref="step_r6_f15" />
+            <field name="wage">233133.36</field>
+            <field name="tax_annum">9877.4</field>
+            <field name="tax_month">823.1</field>
+ 			<field name="housing">9713.89</field>
+			 <field name="transport">5634.06</field>
+			 <field name="utility">2914.17</field>
+			 <field name="furniture">0.00</field>
+			 <field name="meal">975.24</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1942.78</field>
+			 <field name="peculiar">12182.33 </field>
+			 <field name="consolidated"> 40607.91</field>
+        </record>
+
+<!-- GRADE LEVEL 07    STEP 01 TO 15 -->
+        <record id="gred_r7_1" model="grade">
+             <field name="name">GRADE LEVEL 07</field>
+        </record>
+
+        <record id="step_r7_g1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r7_g2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r7_g3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r7_g4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r7_g5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r7_g6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r7_g7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r7_g8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r7_g9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r7_g10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r7_g11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+        <record id="step_r7_g12" model="step">
+             <field name="name">STEP 12</field>
+        </record>
+        <record id="step_r7_g13" model="step">
+             <field name="name">STEP 13</field>
+        </record>
+        <record id="step_r7_g14" model="step">
+             <field name="name">STEP 14</field>
+        </record>
+        <record id="step_r7_g15" model="step">
+             <field name="name">STEP 15</field>
+        </record>
+
+        <record id="grade_step_r7_1" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1"/>
+            <field name="step_id" ref="step_r7_g1"/>
+            <field name="wage">197927.88</field>
+            <field name="tax_annum">11380.29</field>
+            <field name="tax_month">948.36</field>
+ 			<field name="housing">9896.39</field>
+			 <field name="transport">4783.26</field>
+			 <field name="utility">2474.10</field>
+			 <field name="furniture">6597.60</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1649.40</field>
+			 <field name="peculiar"> 10790.91</field>
+			 <field name="consolidated">43163.75 </field>
+        </record>
+        <record id="grade_step_r7_2" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g2" />
+            <field name="wage">205311.00</field>
+            <field name="tax_annum">12299.18</field>
+            <field name="tax_month">1024.93</field>
+ 			<field name="housing">10265.55</field>
+			 <field name="transport">4961.68</field>
+			 <field name="utility">2566.39</field>
+			 <field name="furniture">6843.70</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1710.93</field>
+			 <field name="peculiar">11181.58 </field>
+			 <field name="consolidated"> 44726.50</field>
+        </record>
+        <record id="grade_step_r7_3" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g3" />
+            <field name="wage">212694.00</field>
+            <field name="tax_annum">13218.08</field>
+            <field name="tax_month">1101.51</field>
+ 			<field name="housing">10634.70</field>
+			 <field name="transport">5140.11</field>
+			 <field name="utility">2658.68</field>
+			 <field name="furniture">7089.80</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1772.45</field>
+			 <field name="peculiar"> 11572.33</field>
+			 <field name="consolidated">46289.25 </field>
+        </record>
+        <record id="grade_step_r7_4" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g4" />
+            <field name="wage">220076.76</field>
+            <field name="tax_annum">14136.93</field>
+            <field name="tax_month">1178.08</field>
+ 			<field name="housing">11003.84</field>
+			 <field name="transport">5318.52</field>
+			 <field name="utility">2750.96</field>
+			 <field name="furniture">7335.89</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1833.97</field>
+			 <field name="peculiar">11963.00 </field>
+			 <field name="consolidated">47851.91 </field>
+        </record>
+        
+        
+        <record id="grade_step_r7_5" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g5" />
+            <field name="wage">227459.76</field>
+            <field name="tax_annum">15055.82</field>
+            <field name="tax_month">1254.65</field>
+ 			<field name="housing">11372.99</field>
+			 <field name="transport">5496.94</field>
+			 <field name="utility">2843.25</field>
+			 <field name="furniture">7581.99</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1895.50</field>
+			 <field name="peculiar">12353.66 </field>
+			 <field name="consolidated">49414.66 </field>
+        </record>
+        
+        
+        <record id="grade_step_r7_6" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g6" />
+            <field name="wage">234840.48</field>
+            <field name="tax_annum">15974.67</field>
+            <field name="tax_month">1331.22</field>
+ 			<field name="housing">11742.02</field>
+			 <field name="transport">5675.31</field>
+			 <field name="utility">2935.51</field>
+			 <field name="furniture">7828.02</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">1957.00</field>
+			 <field name="peculiar"> 12744.33</field>
+			 <field name="consolidated">50977.33 </field>
+        </record>
+        <record id="grade_step_r7_7" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g7" />
+            <field name="wage">242225.52</field>
+            <field name="tax_annum">16893.57</field>
+            <field name="tax_month">1407.80</field>
+ 			<field name="housing">12111.28</field>
+			 <field name="transport">5853.78</field>
+			 <field name="utility">3027.82</field>
+			 <field name="furniture">8074.18</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2018.55</field>
+			 <field name="peculiar"> 13135.00</field>
+			 <field name="consolidated">52540.08 </field>
+        </record>
+        <record id="grade_step_r7_8" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g8" />
+            <field name="wage">249608.28</field>
+            <field name="tax_annum">17812.42</field>
+            <field name="tax_month">1484.37</field>
+ 			<field name="housing">12480.41</field>
+			 <field name="transport">6032.20</field>
+			 <field name="utility">3120.10</field>
+			 <field name="furniture">8320.28</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2080.07</field>
+			 <field name="peculiar"> 13525.66</field>
+			 <field name="consolidated">54102.75 </field>
+        </record>
+        <record id="grade_step_r7_9" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g9" />
+            <field name="wage">256991.28</field>
+            <field name="tax_annum">18731.31</field>
+            <field name="tax_month">1560.94</field>
+ 			<field name="housing">12849.56</field>
+			 <field name="transport">6210.62</field>
+			 <field name="utility">3212.39</field>
+			 <field name="furniture">8566.38</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2141.59</field>
+			 <field name="peculiar">13916.33 </field>
+			 <field name="consolidated">55665.50 </field>
+        </record>
+        <record id="grade_step_r7_10" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g10" />
+            <field name="wage">264373.92</field>
+            <field name="tax_annum">19650.16</field>
+            <field name="tax_month">1637.51</field>
+ 			<field name="housing">13218.70</field>
+			 <field name="transport">6389.04</field>
+			 <field name="utility">3304.67</field>
+			 <field name="furniture">8812.46</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2203.12</field>
+			 <field name="peculiar">14307.08 </field>
+			 <field name="consolidated"> 57228.16</field>
+        </record>
+        <record id="grade_step_r7_11" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g11" />
+            <field name="wage">271757.04</field>
+            <field name="tax_annum">20569.06</field>
+            <field name="tax_month">1714.09</field>
+ 			<field name="housing">13587.85</field>
+			 <field name="transport">6567.46</field>
+			 <field name="utility">3396.96</field>
+			 <field name="furniture">9058.57</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2264.64</field>
+			 <field name="peculiar">14697.75 </field>
+			 <field name="consolidated">58790.91 </field>
+        </record>
+        <record id="grade_step_r7_12" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g12" />
+            <field name="wage">279139.68</field>
+            <field name="tax_annum">21766.71</field>
+            <field name="tax_month">1813.89</field>
+ 			<field name="housing">13956.98</field>
+			 <field name="transport">6745.88</field>
+			 <field name="utility">3489.25</field>
+			 <field name="furniture">9304.66</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2326.16</field>
+			 <field name="peculiar">15088.41 </field>
+			 <field name="consolidated">60353.58 </field>
+        </record>
+        <record id="grade_step_r7_13" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g13" />
+            <field name="wage">286522.80</field>
+            <field name="tax_annum">23210.69</field>
+            <field name="tax_month">1934.22</field>
+ 			<field name="housing">14326.14</field>
+			 <field name="transport">6924.30</field>
+			 <field name="utility">3581.54</field>
+			 <field name="furniture">9550.76</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2387.69</field>
+			 <field name="peculiar"> 15479.08</field>
+			 <field name="consolidated">61916.33 </field>
+        </record>
+        <record id="grade_step_r7_14" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g14" />
+            <field name="wage">293905.80</field>
+            <field name="tax_annum">24645.67</field>
+            <field name="tax_month">2054.56</field>
+ 			<field name="housing">14695.29</field>
+			 <field name="transport">7102.72</field>
+			 <field name="utility">3673.82</field>
+			 <field name="furniture">9796.86</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2449.22</field>
+			 <field name="peculiar">15869.75 </field>
+			 <field name="consolidated">63479.08 </field>
+        </record>
+        <record id="grade_step_r7_15" model="grade.step">
+            <field name="grade_id" ref="gred_r7_1" />
+            <field name="step_id" ref="step_r7_g15" />
+            <field name="wage">301288.56</field>
+            <field name="tax_annum">26098.5</field>
+            <field name="tax_month">2174.8</field>
+ 			<field name="housing">15064.33</field>
+			 <field name="transport">7281.14</field>
+			 <field name="utility">3766.11</field>
+			 <field name="furniture">10042.95</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2510.74</field>
+			 <field name="peculiar">16260.42 </field>
+			 <field name="consolidated">65041.75 </field>
+        </record>
+
+<!-- GRADE LEVEL 08    STEP 01 TO 15 -->
+        <record id="gred_r8_1" model="grade">
+             <field name="name">GRADE LEVEL 08</field>
+        </record>
+
+        <record id="step_r8_h1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r8_h2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r8_h3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r8_h4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r8_h5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r8_h6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r8_h7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r8_h8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r8_h9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r8_h10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r8_h11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+        <record id="step_r8_h12" model="step">
+             <field name="name">STEP 12</field>
+        </record>
+        <record id="step_r8_h13" model="step">
+             <field name="name">STEP 13</field>
+        </record>
+        <record id="step_r8_h14" model="step">
+             <field name="name">STEP 14</field>
+        </record>
+        <record id="step_r8_h15" model="step">
+             <field name="name">STEP 15</field>
+        </record>
+
+        <record id="grade_step_r8_1" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1"/>
+            <field name="step_id" ref="step_r8_h1"/>
+            <field name="wage">256281.84</field>
+            <field name="tax_annum">18643.02</field>
+            <field name="tax_month">1553.58</field>
+ 			<field name="housing">12814.09</field>
+			 <field name="transport">6193.48</field>
+			 <field name="utility">3203.52</field>
+			 <field name="furniture">8542.73</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2135.68</field>
+			 <field name="peculiar">13878.83 </field>
+			 <field name="consolidated">55515.33 </field>
+        </record>
+        <record id="grade_step_r8_2" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h2" />
+            <field name="wage">265069.20</field>
+            <field name="tax_annum">19736.70</field>
+            <field name="tax_month">1644.72</field>
+ 			<field name="housing">13253.46</field>
+			 <field name="transport">6405.84</field>
+			 <field name="utility">3313.37</field>
+			 <field name="furniture">8835.64</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2208.91</field>
+			 <field name="peculiar"> 14343.83</field>
+			 <field name="consolidated">57375.33 </field>
+        </record>
+        <record id="grade_step_r8_3" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h3" />
+            <field name="wage">273856.68</field>
+            <field name="tax_annum">20830.38</field>
+            <field name="tax_month">1735.86</field>
+ 			<field name="housing">13692.83</field>
+			 <field name="transport">6618.20</field>
+			 <field name="utility">3426.21</field>
+			 <field name="furniture">9128.56</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2282.14</field>
+			 <field name="peculiar"> 14808.83</field>
+			 <field name="consolidated">59235.33 </field>
+        </record>
+        <record id="grade_step_r8_4" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h4" />
+            <field name="wage">282644.04</field>
+            <field name="tax_annum">22452.09</field>
+            <field name="tax_month">1871.01</field>
+ 			<field name="housing">14132.20</field>
+			 <field name="transport">6830.56</field>
+			 <field name="utility">3533.05</field>
+			 <field name="furniture">9421.47</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2355.37</field>
+			 <field name="peculiar">15273.83 </field>
+			 <field name="consolidated">61095.33 </field>
+        </record>
+        <record id="grade_step_r8_5" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h5" />
+            <field name="wage">291431.04</field>
+            <field name="tax_annum">24170.65</field>
+            <field name="tax_month">2014.22</field>
+ 			<field name="housing">14571.55</field>
+			 <field name="transport">7042.92</field>
+			 <field name="utility">3642.89</field>
+			 <field name="furniture">9714.37</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2428.59</field>
+			 <field name="peculiar"> 15738.83</field>
+			 <field name="consolidated">62955.25 </field>
+        </record>
+        <record id="grade_step_r8_6" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h6" />
+            <field name="wage">300218.40</field>
+            <field name="tax_annum">25889.29</field>
+            <field name="tax_month">2157.44</field>
+ 			<field name="housing">15010.92</field>
+			 <field name="transport">7255.28</field>
+			 <field name="utility">3752.73</field>
+			 <field name="furniture">10007.28</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2501.82</field>
+			 <field name="peculiar"> 16203.83</field>
+			 <field name="consolidated">64815.25</field>
+        </record>
+        <record id="grade_step_r8_7" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h7" />
+            <field name="wage">309005.88</field>
+            <field name="tax_annum">27607.93</field>
+            <field name="tax_month">2300.66</field>
+ 			<field name="housing">15450.29</field>
+			 <field name="transport">7467.64</field>
+			 <field name="utility">3862.57</field>
+			 <field name="furniture">10300.20</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2575.05</field>
+			 <field name="peculiar"> 16668.83</field>
+			 <field name="consolidated">64815.25</field>
+        </record>
+        <record id="grade_step_r8_8" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h8" />
+            <field name="wage">3177983.24</field>
+            <field name="tax_annum">29326.57</field>
+            <field name="tax_month">2443.88</field>
+ 			<field name="housing">15889.66</field>
+			 <field name="transport">7680.00</field>
+			 <field name="utility">3972.42</field>
+			 <field name="furniture">10593.11</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2648.28</field>
+			 <field name="peculiar">17133.83 </field>
+			 <field name="consolidated"> 66675.25</field>
+        </record>
+        <record id="grade_step_r8_9" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h9" />
+            <field name="wage">326580.72</field>
+            <field name="tax_annum">31045.21</field>
+            <field name="tax_month">2587.10</field>
+ 			<field name="housing">16329.04</field>
+			 <field name="transport">7892.37</field>
+			 <field name="utility">4082.26</field>
+			 <field name="furniture">10886.02</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2721.51</field>
+			 <field name="peculiar"> 17598.83</field>
+			 <field name="consolidated">68535.25 </field>
+        </record>
+        <record id="grade_step_r8_10" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h10" />
+            <field name="wage">335368.08</field>
+            <field name="tax_annum">32763.85</field>
+            <field name="tax_month">2730.32</field>
+ 			<field name="housing">16768.40</field>
+			 <field name="transport">8104.73</field>
+			 <field name="utility">4192.10</field>
+			 <field name="furniture">11178.94</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2794.73</field>
+			 <field name="peculiar"> 18063.83</field>
+			 <field name="consolidated">70395.25</field>
+        </record>
+        <record id="grade_step_r8_11" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h11" />
+            <field name="wage">344155.44</field>
+            <field name="tax_annum">34482.49</field>
+            <field name="tax_month">2873.54</field>
+ 			<field name="housing">17207.77</field>
+			 <field name="transport">8317.09</field>
+			 <field name="utility">4301.94</field>
+			 <field name="furniture">11471.85</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2867.96</field>
+			 <field name="peculiar"> 18528.83</field>
+			 <field name="consolidated">72255.25</field>
+        </record>
+        <record id="grade_step_r8_12" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h12" />
+            <field name="wage">352942.92</field>
+            <field name="tax_annum">36201.13</field>
+            <field name="tax_month">3016.76</field>
+ 			<field name="housing">17647.15</field>
+			 <field name="transport">8529.45</field>
+			 <field name="utility">4411.79</field>
+			 <field name="furniture">11764.76</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2941.19</field>
+			 <field name="peculiar"> 18993.83</field>
+			 <field name="consolidated">75975.25 </field>
+        </record>
+        <record id="grade_step_r8_13" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h13" />
+            <field name="wage">361730.28</field>
+            <field name="tax_annum">37919.77</field>
+            <field name="tax_month">3159.98</field>
+ 			<field name="housing">18086.51</field>
+			 <field name="transport">8741.82</field>
+			 <field name="utility">4521.63</field>
+			 <field name="furniture">12057.68</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3014.42</field>
+			 <field name="peculiar">19458.83 </field>
+			 <field name="consolidated">77835.25</field>
+        </record>
+        <record id="grade_step_r8_14" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h14" />
+            <field name="wage">370517.64</field>
+            <field name="tax_annum">39638.41</field>
+            <field name="tax_month">3303.20</field>
+ 			<field name="housing">18525.88</field>
+			 <field name="transport">8954.18</field>
+			 <field name="utility">4631.47</field>
+			 <field name="furniture">12350.59</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3087.65</field>
+			 <field name="peculiar"> 19923.83</field>
+			 <field name="consolidated"> 79695.25</field>
+        </record>
+        <record id="grade_step_r8_15" model="grade.step">
+            <field name="grade_id" ref="gred_r8_1" />
+            <field name="step_id" ref="step_r8_h15" />
+            <field name="wage">379305.12</field>
+            <field name="tax_annum">41375.05</field>
+            <field name="tax_month">3446.4</field>
+ 			<field name="housing">18965.26</field>
+			 <field name="transport">9166.54</field>
+			 <field name="utility">4741.31</field>
+			 <field name="furniture">12643.50</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3160.88</field>
+			 <field name="peculiar"> 20388.83</field>
+			 <field name="consolidated">81555.25 </field>
+        </record>
+
+<!-- GRADE LEVEL 09    STEP 01 TO 15 -->
+        <record id="gred_r9_1" model="grade">
+             <field name="name">GRADE LEVEL 09</field>
+        </record>
+
+        <record id="step_r9_i1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r9_i2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r9_i3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r9_i4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r9_i5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r9_i6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r9_i7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r9_i8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r9_i9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r9_i10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r9_i11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+        <record id="step_r9_i12" model="step">
+             <field name="name">STEP 12</field>
+        </record>
+        <record id="step_r9_i13" model="step">
+             <field name="name">STEP 13</field>
+        </record>
+        <record id="step_r9_i14" model="step">
+             <field name="name">STEP 14</field>
+        </record>
+        <record id="step_r9_i15" model="step">
+             <field name="name">STEP 15</field>
+        </record>
+
+        <record id="grade_step_r9_1" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1"/>
+            <field name="step_id" ref="step_r9_i1"/>
+            <field name="wage">301349.52</field>
+            <field name="tax_annum">26110.51</field>
+            <field name="tax_month">2175.88</field>
+ 			<field name="housing">15067.48</field>
+			 <field name="transport">7282.61</field>
+			 <field name="utility">3766.87</field>
+			 <field name="furniture">10044.98</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2511.25</field>
+			 <field name="peculiar">16263.66</field>
+			 <field name="consolidated">65054.66</field>
+        </record>
+        <record id="grade_step_r9_2" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i2" />
+            <field name="wage">311811.72</field>
+            <field name="tax_annum">28156.71</field>
+            <field name="tax_month">2346.39</field>
+ 			<field name="housing">15590.59</field>
+			 <field name="transport">7535.45</field>
+			 <field name="utility">3897.65</field>
+			 <field name="furniture">10393.72</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2598.43</field>
+			 <field name="peculiar">16817.33 </field>
+			 <field name="consolidated">67269.16</field>
+        </record>
+        <record id="grade_step_r9_3" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i3" />
+            <field name="wage">322274.40</field>
+            <field name="tax_annum">30202.99</field>
+            <field name="tax_month">2516.92</field>
+ 			<field name="housing">16113.72</field>
+			 <field name="transport">7788.30</field>
+			 <field name="utility">4028.43</field>
+			 <field name="furniture">10742.48</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2685.62</field>
+			 <field name="peculiar"> 17370.91</field>
+			 <field name="consolidated">69483.75 </field>
+        </record>
+        <record id="grade_step_r9_4" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i4" />
+            <field name="wage">332736.60</field>
+            <field name="tax_annum">32249.18</field>
+            <field name="tax_month">2687.43</field>
+ 			<field name="housing">16636.83</field>
+			 <field name="transport">8041.13</field>
+			 <field name="utility">4159.21</field>
+			 <field name="furniture">11091.22</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2772.81</field>
+			 <field name="peculiar"> 17924.58</field>
+			 <field name="consolidated">71698.25 </field>
+        </record>
+        <record id="grade_step_r9_5" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i5" />
+            <field name="wage">343199.16</field>
+            <field name="tax_annum">34295.46</field>
+            <field name="tax_month">2857.95</field>
+ 			<field name="housing">17159.96</field>
+			 <field name="transport">8293.98</field>
+			 <field name="utility">4289.99</field>
+			 <field name="furniture">11439.97</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2859.99</field>
+			 <field name="peculiar">18478.16 </field>
+			 <field name="consolidated">73912.83 </field>
+        </record>
+        <record id="grade_step_r9_6" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i6" />
+            <field name="wage">353661.36</field>
+            <field name="tax_annum">36341.66</field>
+            <field name="tax_month">3028.47</field>
+ 			<field name="housing">17686.07</field>
+			 <field name="transport">8546.82</field>
+			 <field name="utility">4420.77</field>
+			 <field name="furniture">11788.71</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2947.18</field>
+			 <field name="peculiar">19031.83 </field>
+			 <field name="consolidated">76127.33 </field>
+        </record>
+        <record id="grade_step_r9_7" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i7" />
+            <field name="wage">364123.92</field>
+            <field name="tax_annum">38387.93</field>
+            <field name="tax_month">3198.99</field>
+ 			<field name="housing">18206.20</field>
+			 <field name="transport">8799.66</field>
+			 <field name="utility">4551.55</field>
+			 <field name="furniture">12137.46</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3034.37</field>
+			 <field name="peculiar">19585.50 </field>
+			 <field name="consolidated">78341.91 </field>
+        </record>
+        <record id="grade_step_r9_8" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i8" />
+            <field name="wage">374586.12</field>
+            <field name="tax_annum">40434.13</field>
+            <field name="tax_month">3369.51</field>
+ 			<field name="housing">18729.31</field>
+			 <field name="transport">9052.50</field>
+			 <field name="utility">4682.33</field>
+			 <field name="furniture">12486.20</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3121.55</field>
+			 <field name="peculiar">20139.08 </field>
+			 <field name="consolidated"> 80556.41</field>
+        </record>
+        <record id="grade_step_r9_9" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i9" />
+            <field name="wage">385048.32</field>
+            <field name="tax_annum">42480.33</field>
+            <field name="tax_month">3540.03</field>
+ 			<field name="housing">19252.42</field>
+			 <field name="transport">9305.33</field>
+			 <field name="utility">4813.10</field>
+			 <field name="furniture">12834.94</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3208.74</field>
+			 <field name="peculiar"> 20692.75</field>
+			 <field name="consolidated">82770.91 </field>
+        </record>
+        <record id="grade_step_r9_10" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i10" />
+            <field name="wage">395511.00</field>
+            <field name="tax_annum">44526.60</field>
+            <field name="tax_month">3710.55</field>
+ 			<field name="housing">19775.55</field>
+			 <field name="transport">9558.18</field>
+			 <field name="utility">4943.89</field>
+			 <field name="furniture">13183.70</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3295.93</field>
+			 <field name="peculiar">21246.33 </field>
+			 <field name="consolidated">84985.50 </field>
+        </record>
+        <record id="grade_step_r9_11" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i11" />
+            <field name="wage">405973.20</field>
+            <field name="tax_annum">46572.80</field>
+            <field name="tax_month">3881.07</field>
+ 			<field name="housing">20298.66</field>
+			 <field name="transport">9811.02</field>
+			 <field name="utility">5074.67</field>
+			 <field name="furniture">13532.44</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3383.11</field>
+			 <field name="peculiar">21800.00 </field>
+			 <field name="consolidated">87200.00 </field>
+        </record>
+        <record id="grade_step_r9_12" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i12" />
+            <field name="wage">416435.76</field>
+            <field name="tax_annum">48619.08</field>
+            <field name="tax_month">4051.59</field>
+ 			<field name="housing">20821.79</field>
+			 <field name="transport">10063.86</field>
+			 <field name="utility">5205.45</field>
+			 <field name="furniture">13881.19</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3470.30</field>
+			 <field name="peculiar"> 22353.66</field>
+			 <field name="consolidated"> 89414.58</field>
+        </record>
+        <record id="grade_step_r9_13" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i13" />
+            <field name="wage">426897.96</field>
+            <field name="tax_annum">50665.27</field>
+            <field name="tax_month">4222.11</field>
+ 			<field name="housing">21344.90</field>
+			 <field name="transport">10316.70</field>
+			 <field name="utility">5336.22</field>
+			 <field name="furniture">14229.93</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3557.48</field>
+			 <field name="peculiar">22907.25 </field>
+			 <field name="consolidated">91629.08 </field>
+        </record>
+        <record id="grade_step_r9_14" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i14" />
+            <field name="wage">437360.64</field>
+            <field name="tax_annum">52711.55</field>
+            <field name="tax_month">4392.63</field>
+ 			<field name="housing">21868.03</field>
+			 <field name="transport">10569.55</field>
+			 <field name="utility">5467.01</field>
+			 <field name="furniture">14578.69</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3644.67</field>
+			 <field name="peculiar">23460.92 </field>
+			 <field name="consolidated">93843.66 </field>
+        </record>
+        <record id="grade_step_r9_15" model="grade.step">
+            <field name="grade_id" ref="gred_r9_1" />
+            <field name="step_id" ref="step_r9_i15" />
+            <field name="wage">447822.84</field>
+            <field name="tax_annum">61033.29</field>
+            <field name="tax_month">5086.1</field>
+ 			<field name="housing">22391.14</field>
+			 <field name="transport">10822.39</field>
+			 <field name="utility">5597.79</field>
+			 <field name="furniture">14927.43</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3731.86</field>
+			 <field name="peculiar">24015.50 </field>
+			 <field name="consolidated">96058.16 </field>
+        </record>
+
+<!-- GRADE LEVEL 10    STEP 01 TO 15 -->
+        <record id="gred_r10_1" model="grade">
+             <field name="name">GRADE LEVEL 10</field>
+        </record>
+
+        <record id="step_r10_j1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r10_j2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r10_j3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r10_j4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r10_j5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r10_j6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r10_j7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r10_j8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r10_j9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r10_j10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r10_j11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+        <record id="step_r10_j12" model="step">
+             <field name="name">STEP 12</field>
+        </record>
+        <record id="step_r10_j13" model="step">
+             <field name="name">STEP 13</field>
+        </record>
+        <record id="step_r10_j14" model="step">
+             <field name="name">STEP 14</field>
+        </record>
+        <record id="step_r10_j15" model="step">
+             <field name="name">STEP 15</field>
+        </record>
+
+        <record id="grade_step_r10_1" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1"/>
+            <field name="step_id" ref="step_r10_j1"/>
+            <field name="wage">354048.36</field>
+            <field name="tax_annum">36417.35</field>
+            <field name="tax_month">3034.78</field>
+ 			<field name="housing">17702.42</field>
+			 <field name="transport">8556.17</field>
+			 <field name="utility">4425.60</field>
+			 <field name="furniture">11801.61</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">2950.40</field>
+			 <field name="peculiar"> 19052.33</field>
+			 <field name="consolidated">76209.25</field>
+        </record>
+        <record id="grade_step_r10_2" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j2" />
+            <field name="wage">365553.48</field>
+            <field name="tax_annum">38667.52</field>
+            <field name="tax_month">3222.29</field>
+ 			<field name="housing">18277.67</field>
+			 <field name="transport">8834.21</field>
+			 <field name="utility">4569.42</field>
+			 <field name="furniture">12185.12</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3046.28</field>
+			 <field name="peculiar">19661.16 </field>
+			 <field name="consolidated">78644.51 </field>
+        </record>
+        <record id="grade_step_r10_3" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j3" />
+            <field name="wage">377058.60</field>
+            <field name="tax_annum">40917.69</field>
+            <field name="tax_month">3409.81</field>
+ 			<field name="housing">18852.93</field>
+			 <field name="transport">9112.25</field>
+			 <field name="utility">4713.23</field>
+			 <field name="furniture">12568.62</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3142.16</field>
+			 <field name="peculiar">20269.91 </field>
+			 <field name="consolidated"> 81079.75</field>
+        </record>
+        <record id="grade_step_r10_4" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j4" />
+            <field name="wage">388564.08</field>
+            <field name="tax_annum">43167.94</field>
+            <field name="tax_month">3597.33</field>
+ 			<field name="housing">19428.20</field>
+			 <field name="transport">9390.30</field>
+			 <field name="utility">4857.05</field>
+			 <field name="furniture">12952.14</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3238.03</field>
+			 <field name="peculiar">20878.75 </field>
+			 <field name="consolidated">83515.08 </field>
+        </record>
+        <record id="grade_step_r10_5" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j5" />
+            <field name="wage">400069.20</field>
+            <field name="tax_annum">45418.11</field>
+            <field name="tax_month">3784.84</field>
+ 			<field name="housing">20003.46</field>
+			 <field name="transport">9668.34</field>
+			 <field name="utility">5000.87</field>
+			 <field name="furniture">13335.64</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3333.91</field>
+			 <field name="peculiar">21487.58 </field>
+			 <field name="consolidated">85950.33 </field>
+        </record>
+        <record id="grade_step_r10_6" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j6" />
+            <field name="wage">411574.32</field>
+            <field name="tax_annum">47668.28</field>
+            <field name="tax_month">3972.36</field>
+ 			<field name="housing">20578.72</field>
+			 <field name="transport">9946.38</field>
+			 <field name="utility">5144.68</field>
+			 <field name="furniture">13719.14</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3429.79</field>
+			 <field name="peculiar"> 22096.41</field>
+			 <field name="consolidated">88385.58 </field>
+        </record>
+        <record id="grade_step_r10_7" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j7" />
+            <field name="wage">423079.44</field>
+            <field name="tax_annum">49918.45</field>
+            <field name="tax_month">4159.87</field>
+ 			<field name="housing">21153.97</field>
+			 <field name="transport">10224.42</field>
+			 <field name="utility">5288.49</field>
+			 <field name="furniture">14102.65</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3525.66</field>
+			 <field name="peculiar">22705.16 </field>
+			 <field name="consolidated">90820.84 </field>
+        </record>
+        <record id="grade_step_r10_8" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j8" />
+            <field name="wage">434584.56</field>
+            <field name="tax_annum">52168.62</field>
+            <field name="tax_month">4347.39</field>
+ 			<field name="housing">21729.23</field>
+			 <field name="transport">10502.46</field>
+			 <field name="utility">5432.31</field>
+			 <field name="furniture">14486.15</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3621.54</field>
+			 <field name="peculiar"> 23314.00</field>
+			 <field name="consolidated">93256.08 </field>
+        </record>
+        <record id="grade_step_r10_9" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j9" />
+            <field name="wage">446089.68</field>
+            <field name="tax_annum">54571.08</field>
+            <field name="tax_month">4547.59</field>
+ 			<field name="housing">22304.48</field>
+			 <field name="transport">10780.50</field>
+			 <field name="utility">5576.12</field>
+			 <field name="furniture">14869.66</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3717.41</field>
+			 <field name="peculiar">23922.83 </field>
+			 <field name="consolidated">95691.33 </field>
+        </record>
+        <record id="grade_step_r10_10" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j10" />
+            <field name="wage">457594.80</field>
+            <field name="tax_annum">57639.50</field>
+            <field name="tax_month">4803.29</field>
+ 			<field name="housing">22879.74</field>
+			 <field name="transport">11058.54</field>
+			 <field name="utility">5719.94</field>
+			 <field name="furniture">15253.16</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3813.29</field>
+			 <field name="peculiar"> 24531.66</field>
+			 <field name="consolidated">98126.58 </field>
+        </record>
+        <record id="grade_step_r10_11" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j11" />
+            <field name="wage">469099.92</field>
+            <field name="tax_annum">60707.91</field>
+            <field name="tax_month">5058.99</field>
+ 			<field name="housing">23455.00</field>
+			 <field name="transport">11336.58</field>
+			 <field name="utility">5863.75</field>
+			 <field name="furniture">15636.66</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3909.17</field>
+			 <field name="peculiar"> 25140.50</field>
+			 <field name="consolidated"> 100561.83</field>
+        </record>
+        <record id="grade_step_r10_12" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j12" />
+            <field name="wage">480605.52</field>
+            <field name="tax_annum">63776.43</field>
+            <field name="tax_month">5314.70</field>
+ 			<field name="housing">24030.28</field>
+			 <field name="transport">11614.63</field>
+			 <field name="utility">6007.57</field>
+			 <field name="furniture">16020.18</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4005.05</field>
+			 <field name="peculiar">25749.25 </field>
+			 <field name="consolidated">102997.16 </field>
+        </record>
+        <record id="grade_step_r10_13" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j13" />
+            <field name="wage">492110.64</field>
+            <field name="tax_annum">66844.85</field>
+            <field name="tax_month">5570.40</field>
+ 			<field name="housing">24605.53</field>
+			 <field name="transport">11892.67</field>
+			 <field name="utility">6151.38</field>
+			 <field name="furniture">16403.69</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4100.92</field>
+			 <field name="peculiar">26358.08 </field>
+			 <field name="consolidated"> 105432.41</field>
+        </record>
+        <record id="grade_step_r10_14" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j14" />
+            <field name="wage">503615.76</field>
+            <field name="tax_annum">69913.26</field>
+            <field name="tax_month">5826.11</field>
+ 			<field name="housing">25180.79</field>
+			 <field name="transport">12170.71</field>
+			 <field name="utility">6295.20</field>
+			 <field name="furniture">16787.19</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4196.80</field>
+			 <field name="peculiar">26966.92 </field>
+			 <field name="consolidated"> 107867.66</field>
+        </record>
+        <record id="grade_step_r10_15" model="grade.step">
+            <field name="grade_id" ref="gred_r10_1" />
+            <field name="step_id" ref="step_r10_j15" />
+            <field name="wage">515120.76</field>
+            <field name="tax_annum">72981.68</field>
+            <field name="tax_month">6081.8</field>
+ 			<field name="housing">25756.04</field>
+			 <field name="transport">12448.75</field>
+			 <field name="utility">6439.01</field>
+			 <field name="furniture">17170.69</field>
+			 <field name="meal">1269.00</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4292.67</field>
+			 <field name="peculiar"> 27575.75</field>
+			 <field name="consolidated">110302.91 </field>
+        </record>
+
+<!-- GRADE LEVEL 12    STEP 01 TO 11 -->
+        <record id="gred_r12_1" model="grade">
+             <field name="name">GRADE LEVEL 12</field>
+        </record>
+
+        <record id="step_r12_k1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r12_k2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r12_k3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r12_k4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r12_k5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r12_k6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r12_k7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r12_k8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r12_k9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r12_k10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r12_k11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+
+        <record id="grade_step_r12_1" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1"/>
+            <field name="step_id" ref="step_r12_k1"/>
+            <field name="wage">407931.48</field>
+            <field name="tax_annum">47097.02</field>
+            <field name="tax_month">3924.75</field>
+ 			<field name="housing">20396.57</field>
+			 <field name="transport">9858.34</field>
+			 <field name="utility">5099.14</field>
+			 <field name="furniture">13597.72</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3399.43</field>
+			 <field name="peculiar">21941.83 </field>
+			 <field name="consolidated">87767.33</field>
+        </record>
+        <record id="grade_step_r12_2" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1" />
+            <field name="step_id" ref="step_r12_k2" />
+            <field name="wage">425777.52</field>
+            <field name="tax_annum">50587.35</field>
+            <field name="tax_month">4215.61</field>
+ 			<field name="housing">21288.88</field>
+			 <field name="transport">10289.62</field>
+			 <field name="utility">5322.22</field>
+			 <field name="furniture">14192.58</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3548.15</field>
+			 <field name="peculiar">22886.16 </field>
+			 <field name="consolidated"> 91544.75</field>
+        </record>
+        <record id="grade_step_r12_3" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1" />
+            <field name="step_id" ref="step_r12_k3" />
+            <field name="wage">443623.20</field>
+            <field name="tax_annum">54105.83</field>
+            <field name="tax_month">4508.82</field>
+ 			<field name="housing">22181.16</field>
+			 <field name="transport">10720.89</field>
+			 <field name="utility">5545.29</field>
+			 <field name="furniture">14787.44</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3696.86</field>
+			 <field name="peculiar"> 23830.50</field>
+			 <field name="consolidated">95322.08 </field>
+        </record>
+        <record id="grade_step_r12_4" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1" />
+            <field name="step_id" ref="step_r12_k4" />
+            <field name="wage">461469.36</field>
+            <field name="tax_annum">58865.37</field>
+            <field name="tax_month">4905.45</field>
+ 			<field name="housing">23073.47</field>
+			 <field name="transport">11152.18</field>
+			 <field name="utility">5768.37</field>
+			 <field name="furniture">15382.31</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3845.58</field>
+			 <field name="peculiar">24774.83 </field>
+			 <field name="consolidated">99099.50 </field>
+        </record>
+        <record id="grade_step_r12_5" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1" />
+            <field name="step_id" ref="step_r12_k5" />
+            <field name="wage">479314.92</field>
+            <field name="tax_annum">63624.81</field>
+            <field name="tax_month">5302.07</field>
+ 			<field name="housing">23965.75</field>
+			 <field name="transport">11583.44</field>
+			 <field name="utility">5991.44</field>
+			 <field name="furniture">15977.16</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3994.29</field>
+			 <field name="peculiar">25719.75 </field>
+			 <field name="consolidated">102876.83 </field>
+        </record>
+        <record id="grade_step_r12_6" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1" />
+            <field name="step_id" ref="step_r12_k6" />
+            <field name="wage">497161.08</field>
+            <field name="tax_annum">68384.36</field>
+            <field name="tax_month">5698.70</field>
+ 			<field name="housing">24858.05</field>
+			 <field name="transport">12014.73</field>
+			 <field name="utility">6214.51</field>
+			 <field name="furniture">16572.04</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4143.01</field>
+			 <field name="peculiar"> 26663.58</field>
+			 <field name="consolidated">106654.25 </field>
+        </record>
+        <record id="grade_step_r12_7" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1" />
+            <field name="step_id" ref="step_r12_k7" />
+            <field name="wage">515006.76</field>
+            <field name="tax_annum">73143.80</field>
+            <field name="tax_month">6095.32</field>
+ 			<field name="housing">25750.34</field>
+			 <field name="transport">12446.00</field>
+			 <field name="utility">6437.58</field>
+			 <field name="furniture">17166.89</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4291.72</field>
+			 <field name="peculiar">27607.91 </field>
+			 <field name="consolidated">110431.58 </field>
+        </record>
+        <record id="grade_step_r12_8" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1" />
+            <field name="step_id" ref="step_r12_k8" />
+            <field name="wage">532852.80</field>
+            <field name="tax_annum">77903.34</field>
+            <field name="tax_month">6491.95</field>
+ 			<field name="housing">26642.64</field>
+			 <field name="transport">12877.28</field>
+			 <field name="utility">6660.66</field>
+			 <field name="furniture">17761.76</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4440.44</field>
+			 <field name="peculiar">28552.25 </field>
+			 <field name="consolidated">114209.00 </field>
+        </record>
+        <record id="grade_step_r12_9" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1" />
+            <field name="step_id" ref="step_r12_k9" />
+            <field name="wage">550698.48</field>
+            <field name="tax_annum">82662.78</field>
+            <field name="tax_month">6888.57</field>
+ 			<field name="housing">27534.93</field>
+			 <field name="transport">13308.55</field>
+			 <field name="utility">6883.73</field>
+			 <field name="furniture">18356.62</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4589.15</field>
+			 <field name="peculiar">29496.58 </field>
+			 <field name="consolidated">117986.33 </field>
+        </record>
+        <record id="grade_step_r12_10" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1" />
+            <field name="step_id" ref="step_r12_k10" />
+            <field name="wage">568544.22</field>
+            <field name="tax_annum">87422.33</field>
+            <field name="tax_month">7285.19</field>
+ 			<field name="housing">28427.23</field>
+			 <field name="transport">13739.83</field>
+			 <field name="utility">7106.81</field>
+			 <field name="furniture">18951.48</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4737.87</field>
+			 <field name="peculiar">30440.91 </field>
+			 <field name="consolidated">121763.75 </field>
+        </record>
+        <record id="grade_step_r12_11" model="grade.step">
+            <field name="grade_id" ref="gred_r12_1" />
+            <field name="step_id" ref="step_r12_k11" />
+            <field name="wage">586390.20</field>
+            <field name="tax_annum">92181.77</field>
+            <field name="tax_month">7681.81</field>
+ 			<field name="housing">29319.51</field>
+			 <field name="transport">14171.10</field>
+			 <field name="utility">7329.88</field>
+			 <field name="furniture">19546.34</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4886.59</field>
+			 <field name="peculiar"> 31385.25</field>
+			 <field name="consolidated">125541.08 </field>
+        </record>
+
+<!-- GRADE LEVEL 13    STEP 01 TO 11 -->
+        <record id="gred_r13_1" model="grade">
+             <field name="name">GRADE LEVEL 13</field>
+        </record>
+
+        <record id="step_r13_l1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r13_l2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r13_l3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r13_l4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r13_l5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r13_l6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r13_l7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r13_l8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r13_l9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r13_l10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r13_l11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+
+        <record id="grade_step_r13_1" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1"/>
+            <field name="step_id" ref="step_r13_l1"/>
+            <field name="wage">455579.16</field>
+            <field name="tax_annum">57294.47</field>
+            <field name="tax_month">4774.54</field>
+ 			<field name="housing">22778.96</field>
+			 <field name="transport">11009.83</field>
+			 <field name="utility">5694.74</field>
+			 <field name="furniture">15185.97</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3796.49</field>
+			 <field name="peculiar">24463.17 </field>
+			 <field name="consolidated">97852.75 </field>
+        </record>
+        <record id="grade_step_r13_2" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1" />
+            <field name="step_id" ref="step_r13_l2" />
+            <field name="wage">474446.04</field>
+            <field name="tax_annum">62326.28</field>
+            <field name="tax_month">5193.86</field>
+ 			<field name="housing">23722.30</field>
+			 <field name="transport">11465.78</field>
+			 <field name="utility">5930.58</field>
+			 <field name="furniture">15814.87</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">3953.72</field>
+			 <field name="peculiar">25461.58 </field>
+			 <field name="consolidated"> 101846.25</field>
+        </record>
+        <record id="grade_step_r13_3" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1" />
+            <field name="step_id" ref="step_r13_l3" />
+            <field name="wage">493313.04</field>
+            <field name="tax_annum">67358.09</field>
+            <field name="tax_month">5613.17</field>
+ 			<field name="housing">24665.65</field>
+			 <field name="transport">11921.73</field>
+			 <field name="utility">6166.41</field>
+			 <field name="furniture">16443.77</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4110.94</field>
+			 <field name="peculiar">26459.92 </field>
+			 <field name="consolidated">105839.75 </field>
+        </record>
+        <record id="grade_step_r13_4" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1" />
+            <field name="step_id" ref="step_r13_l4" />
+            <field name="wage">512179.92</field>
+            <field name="tax_annum">72389.90</field>
+            <field name="tax_month">6032.49</field>
+ 			<field name="housing">25609.00</field>
+			 <field name="transport">12377.68</field>
+			 <field name="utility">6402.25</field>
+			 <field name="furniture">17072.66</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4268.17</field>
+			 <field name="peculiar">27458.33 </field>
+			 <field name="consolidated">109833.25 </field>
+        </record>
+        <record id="grade_step_r13_5" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1" />
+            <field name="step_id" ref="step_r13_l5" />
+            <field name="wage">531046.92</field>
+            <field name="tax_annum">77421.71</field>
+            <field name="tax_month">6451.81</field>
+ 			<field name="housing">26552.35</field>
+			 <field name="transport">12833.63</field>
+			 <field name="utility">6638.09</field>
+			 <field name="furniture">17701.56</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4425.39</field>
+			 <field name="peculiar">28456.66 </field>
+			 <field name="consolidated">113826.75 </field>
+        </record>
+        <record id="grade_step_r13_6" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1" />
+            <field name="step_id" ref="step_r13_l6" />
+            <field name="wage">549913.80</field>
+            <field name="tax_annum">82453.52</field>
+            <field name="tax_month">6871.13</field>
+ 			<field name="housing">27495.69</field>
+			 <field name="transport">13289.58</field>
+			 <field name="utility">6873.92</field>
+			 <field name="furniture">18330.46</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4582.62</field>
+			 <field name="peculiar">29455.08 </field>
+			 <field name="consolidated">117820.25 </field>
+        </record>
+        <record id="grade_step_r13_7" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1" />
+            <field name="step_id" ref="step_r13_l7" />
+            <field name="wage">568780.68</field>
+            <field name="tax_annum">87485.33</field>
+            <field name="tax_month">7290.44</field>
+ 			<field name="housing">28439.04</field>
+			 <field name="transport">13745.53</field>
+			 <field name="utility">7109.76</field>
+			 <field name="furniture">18959.36</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4739.84</field>
+			 <field name="peculiar">30453.41 </field>
+			 <field name="consolidated">121813.75	 </field>
+        </record>
+        <record id="grade_step_r13_8" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1" />
+            <field name="step_id" ref="step_r13_l8" />
+            <field name="wage">587647.68</field>
+            <field name="tax_annum">92517.14</field>
+            <field name="tax_month">7709.76</field>
+ 			<field name="housing">29382.39</field>
+			 <field name="transport">14201.49</field>
+			 <field name="utility">7345.60</field>
+			 <field name="furniture">19588.26</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4897.06</field>
+			 <field name="peculiar">31451.83 </field>
+			 <field name="consolidated">125807.25 </field>
+        </record>
+        <record id="grade_step_r13_9" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1" />
+            <field name="step_id" ref="step_r13_l9" />
+            <field name="wage">606514.56</field>
+            <field name="tax_annum">97548.95</field>
+            <field name="tax_month">8129.08</field>
+ 			<field name="housing">30325.73</field>
+			 <field name="transport">14657.44</field>
+			 <field name="utility">7581.43</field>
+			 <field name="furniture">20217.15</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">5054.29</field>
+			 <field name="peculiar">32450.16 </field>
+			 <field name="consolidated">129800.75 </field>
+        </record>
+        <record id="grade_step_r13_10" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1" />
+            <field name="step_id" ref="step_r13_l10" />
+            <field name="wage">625381.56</field>
+            <field name="tax_annum">102580.76</field>
+            <field name="tax_month">8548.40</field>
+ 			<field name="housing">31269.08</field>
+			 <field name="transport">15113.39</field>
+			 <field name="utility">7817.27</field>
+			 <field name="furniture">20846.05</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">5211.51</field>
+			 <field name="peculiar"> 33448.58</field>
+			 <field name="consolidated"> 133794.25</field>
+        </record>
+        <record id="grade_step_r13_11" model="grade.step">
+            <field name="grade_id" ref="gred_r13_1" />
+            <field name="step_id" ref="step_r13_l11" />
+            <field name="wage">644248.44</field>
+            <field name="tax_annum">107612.57</field>
+            <field name="tax_month">8967.71</field>
+ 			<field name="housing">32212.42</field>
+			 <field name="transport">15569.34</field>
+			 <field name="utility">8053.11</field>
+			 <field name="furniture">21474.95</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">5368.74</field>
+			 <field name="peculiar"> 34446.91</field>
+			 <field name="consolidated"> 137787.75</field>
+        </record>
+
+<!-- GRADE LEVEL 14    STEP 01 TO 11 -->
+        <record id="gred_r14_1" model="grade">
+             <field name="name">GRADE LEVEL 14</field>
+        </record>
+
+        <record id="step_r14_m1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r14_m2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r14_m3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r14_m4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r14_m5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r14_m6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r14_m7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r14_m8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r14_m9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+        <record id="step_r14_m10" model="step">
+             <field name="name">STEP 10</field>
+        </record>
+        <record id="step_r14_m11" model="step">
+             <field name="name">STEP 11</field>
+        </record>
+
+        <record id="grade_step_r14_1" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1"/>
+            <field name="step_id" ref="step_r14_m1"/>
+            <field name="wage">503447.28</field>
+            <field name="tax_annum">70060.89</field>
+            <field name="tax_month">5838.41</field>
+ 			<field name="housing">25172.37</field>
+			 <field name="transport">12166.64</field>
+			 <field name="utility">6293.09</field>
+			 <field name="furniture">16781.58</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4195.39</field>
+			 <field name="peculiar">26996.25 </field>
+			 <field name="consolidated">107984.83 </field>
+        </record>
+        <record id="grade_step_r14_2" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1" />
+            <field name="step_id" ref="step_r14_m2" />
+            <field name="wage">523758.72</field>
+            <field name="tax_annum">75477.95</field>
+            <field name="tax_month">6289.83</field>
+ 			<field name="housing">26187.94</field>
+			 <field name="transport">12657.50</field>
+			 <field name="utility">6546.98</field>
+			 <field name="furniture">17458.62</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4364.66</field>
+			 <field name="peculiar"> 28071.00</field>
+			 <field name="consolidated">112284.08 </field>
+        </record>
+        <record id="grade_step_r14_3" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1" />
+            <field name="step_id" ref="step_r14_m3" />
+            <field name="wage">544069.68</field>
+            <field name="tax_annum">80894.90</field>
+            <field name="tax_month">6741.24</field>
+ 			<field name="housing">27203.49</field>
+			 <field name="transport">13148.35</field>
+			 <field name="utility">6800.87</field>
+			 <field name="furniture">18135.66</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4533.91</field>
+			 <field name="peculiar"> 29145.83</field>
+			 <field name="consolidated">116583.25 </field>
+        </record>
+        <record id="grade_step_r14_4" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1" />
+            <field name="step_id" ref="step_r14_m4" />
+            <field name="wage">564381.12</field>
+            <field name="tax_annum">86311.95</field>
+            <field name="tax_month">7192.66</field>
+ 			<field name="housing">28219.06</field>
+			 <field name="transport">13639.21</field>
+			 <field name="utility">7054.76</field>
+			 <field name="furniture">18812.70</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4703.18</field>
+			 <field name="peculiar"> 30220.67</field>
+			 <field name="consolidated">120882.50 </field>
+        </record>
+        <record id="grade_step_r14_5" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1" />
+            <field name="step_id" ref="step_r14_m5" />
+            <field name="wage">584692.56</field>
+            <field name="tax_annum">91729.00</field>
+            <field name="tax_month">7644.08</field>
+ 			<field name="housing">29234.63</field>
+			 <field name="transport">14130.07</field>
+			 <field name="utility">7308.66</field>
+			 <field name="furniture">19489.75</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">4872.44</field>
+			 <field name="peculiar"> 31295.42</field>
+			 <field name="consolidated">125181.75 </field>
+        </record>
+        <record id="grade_step_r14_6" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1" />
+            <field name="step_id" ref="step_r14_m6" />
+            <field name="wage">605003.52</field>
+            <field name="tax_annum">97145.96</field>
+            <field name="tax_month">8095.50</field>
+ 			<field name="housing">30250.18</field>
+			 <field name="transport">14620.92</field>
+			 <field name="utility">7562.54</field>
+			 <field name="furniture">20166.78</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">5041.70</field>
+			 <field name="peculiar">32370.25 </field>
+			 <field name="consolidated">129480.91 </field>
+        </record>
+        <record id="grade_step_r14_7" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1" />
+            <field name="step_id" ref="step_r14_m7" />
+            <field name="wage">625314.96</field>
+            <field name="tax_annum">102563.01</field>
+            <field name="tax_month">8546.92</field>
+ 			<field name="housing">31265.75</field>
+			 <field name="transport">15111.78</field>
+			 <field name="utility">7816.44</field>
+			 <field name="furniture">2084383</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">5210.96</field>
+			 <field name="peculiar">33445.00 </field>
+			 <field name="consolidated">133780.16 </field>
+        </record>
+        <record id="grade_step_r14_8" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1" />
+            <field name="step_id" ref="step_r14_m8" />
+            <field name="wage">645626.04</field>
+            <field name="tax_annum">107979.96</field>
+            <field name="tax_month">8998.33</field>
+ 			<field name="housing">32281.30</field>
+			 <field name="transport">15602.63</field>
+			 <field name="utility">8070.33</field>
+			 <field name="furniture">21520.87</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">5380.22</field>
+			 <field name="peculiar">34519.83 </field>
+			 <field name="consolidated">138079.33 </field>
+        </record>
+        <record id="grade_step_r14_9" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1" />
+            <field name="step_id" ref="step_r14_m9" />
+            <field name="wage">665937.36</field>
+            <field name="tax_annum">113397.02</field>
+            <field name="tax_month">9449.75</field>
+ 			<field name="housing">33296.87</field>
+			 <field name="transport">16093.49</field>
+			 <field name="utility">8324.22</field>
+			 <field name="furniture">22197.91</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">5549.48</field>
+			 <field name="peculiar">35594.67 </field>
+			 <field name="consolidated">142378.58 </field>
+        </record>
+        <record id="grade_step_r14_10" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1" />
+            <field name="step_id" ref="step_r14_m10" />
+            <field name="wage">686248.80</field>
+            <field name="tax_annum">118814.07</field>
+            <field name="tax_month">9901.17</field>
+ 			<field name="housing">34312.44</field>
+			 <field name="transport">16584.35</field>
+			 <field name="utility">8578.11</field>
+			 <field name="furniture">22874.96</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">5718.74</field>
+			 <field name="peculiar"> 36669.42</field>
+			 <field name="consolidated">146677.83 </field>
+        </record>
+        <record id="grade_step_r14_11" model="grade.step">
+            <field name="grade_id" ref="gred_r14_1" />
+            <field name="step_id" ref="step_r14_m11" />
+            <field name="wage">706559.88</field>
+            <field name="tax_annum">124231.02</field>
+            <field name="tax_month">10352.59</field>
+ 			<field name="housing">35328.00</field>
+			 <field name="transport">17075.20</field>
+			 <field name="utility">8832.00</field>
+			 <field name="furniture">23552.00</field>
+			 <field name="meal">1421.81</field>
+			 <field name="domestic">0.00</field>
+			 <field name="leave_grant">5888.00</field>
+			 <field name="peculiar"> 37744.25</field>
+			 <field name="consolidated"> 150977.00</field>
+        </record>
+
+<!-- GRADE LEVEL 15    STEP 01 TO 09 -->
+        <record id="gred_r15_1" model="grade">
+             <field name="name">GRADE LEVEL 15</field>
+        </record>
+
+        <record id="step_r15_n1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r15_n2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r15_n3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r15_n4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r15_n5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r15_n6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r15_n7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r15_n8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r15_n9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+
+        <record id="grade_step_r15_1" model="grade.step">
+            <field name="grade_id" ref="gred_r15_1"/>
+            <field name="step_id" ref="step_r15_n1"/>
+            <field name="wage">548758.68</field>
+            <field name="tax_annum">120754.68</field>
+            <field name="tax_month">10062.89</field>
+			<field name="housing">34297.42</field>
+			<field name="transport">13261.67</field>
+			<field name="utility">6859.48</field>
+			<field name="furniture">18291.96</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">23603.85</field>
+			<field name="leave_grant">4572.99</field>
+			<field name="peculiar">37054.50 </field>
+			 <field name="consolidated">148218.00</field>
+        </record>
+        <record id="grade_step_r15_2" model="grade.step">
+            <field name="grade_id" ref="gred_r15_1"/>
+            <field name="step_id" ref="step_r15_n2"/>
+            <field name="wage">575920.80</field>
+            <field name="tax_annum">128426.61</field>
+            <field name="tax_month">10702.22</field>
+			<field name="housing">35995.05</field>
+			<field name="transport">13918.09</field>
+			<field name="utility">7199.01</field>
+			<field name="furniture">19197.36</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">23603.85</field>
+			<field name="leave_grant">23603.85</field>
+			<field name="peculiar">38576.67 </field>
+			 <field name="consolidated">154306.83</field>
+        </record>
+        <record id="grade_step_r15_3" model="grade.step">
+            <field name="grade_id" ref="gred_r15_1"/>
+            <field name="step_id" ref="step_r15_n3"/>
+            <field name="wage">603082.44</field>
+            <field name="tax_annum">137991.35</field>
+            <field name="tax_month">11499.28</field>
+			<field name="housing">37692.65</field>
+			<field name="transport">142574.59</field>
+			<field name="utility">7538.53</field>
+			<field name="furniture">20102.75</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">23603.85</field>
+			<field name="leave_grant">5025.69</field>
+			<field name="peculiar">40098.92 </field>
+			 <field name="consolidated">160395.58</field>
+        </record>
+        <record id="grade_step_r15_4" model="grade.step">
+            <field name="grade_id" ref="gred_r15_1"/>
+            <field name="step_id" ref="step_r15_n4"/>
+            <field name="wage">630244.56</field>
+            <field name="tax_annum">147709.13</field>
+            <field name="tax_month">12309.09</field>
+			<field name="housing">390390.29</field>
+			<field name="transport">15230.91</field>
+			<field name="utility">7878.06</field>
+			<field name="furniture">21008.15</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">23603.85</field>
+			<field name="leave_grant">5252.04</field>
+			<field name="peculiar"> 41621.08</field>
+			 <field name="consolidated">166484.41</field>
+        </record>
+        <record id="grade_step_r15_5" model="grade.step">
+            <field name="grade_id" ref="gred_r15_1"/>
+            <field name="step_id" ref="step_r15_n5"/>
+            <field name="wage">657406.20</field>
+            <field name="tax_annum">157426.77</field>
+            <field name="tax_month">13118.90</field>
+			<field name="housing">41087.89</field>
+			<field name="transport">15887.32</field>
+			<field name="utility">8217.58</field>
+			<field name="furniture">21913.54</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">23603.85</field>
+			<field name="leave_grant">5478.39</field>
+			<field name="peculiar"> 43143.33</field>
+			 <field name="consolidated">172573.16</field>
+        </record>
+        <record id="grade_step_r15_6" model="grade.step">
+            <field name="grade_id" ref="gred_r15_1"/>
+            <field name="step_id" ref="step_r15_n6"/>
+            <field name="wage">684568.32</field>
+            <field name="tax_annum">167144.55</field>
+            <field name="tax_month">13928.71</field>
+			<field name="housing">42785.52</field>
+			<field name="transport">16543.73</field>
+			<field name="utility">8557.10</field>
+			<field name="furniture">22818.94</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">23603.85</field>
+			<field name="leave_grant">5704.74</field>
+			<field name="peculiar">44665.50 </field>
+			 <field name="consolidated">178662.00</field>
+        </record>
+        <record id="grade_step_r15_7" model="grade.step">
+            <field name="grade_id" ref="gred_r15_1"/>
+            <field name="step_id" ref="step_r15_n7"/>
+            <field name="wage">711730.08</field>
+            <field name="tax_annum">176862.20</field>
+            <field name="tax_month">14738.52</field>
+			<field name="housing">44483.13</field>
+			<field name="transport">17200.14</field>
+			<field name="utility">8896.63</field>
+			<field name="furniture">23724.34</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">23603.85</field>
+			<field name="leave_grant">5931.08</field>
+			<field name="peculiar">46187.67 </field>
+			 <field name="consolidated">184750.75 </field>
+        </record>
+        <record id="grade_step_r15_8" model="grade.step">
+            <field name="grade_id" ref="gred_r15_1"/>
+            <field name="step_id" ref="step_r15_n8"/>
+            <field name="wage">738892.08</field>
+            <field name="tax_annum">186579.98</field>
+            <field name="tax_month">15548.33</field>
+			<field name="housing">46180.76</field>
+			<field name="transport">17856.56</field>
+			<field name="utility">9236.15</field>
+			<field name="furniture">24629.74</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">23603.85</field>
+			<field name="leave_grant">6157.43</field>
+			<field name="peculiar">47709.92 </field>
+			 <field name="consolidated">190839.58 </field>
+        </record>
+        <record id="grade_step_r15_9" model="grade.step">
+            <field name="grade_id" ref="gred_r15_1"/>
+            <field name="step_id" ref="step_r15_n9"/>
+            <field name="wage">766053.84</field>
+            <field name="tax_annum">196297.62</field>
+            <field name="tax_month">16358.14</field>
+			<field name="housing">47878.37</field>
+			<field name="transport">18512.97</field>
+			<field name="utility">6575.67</field>
+			<field name="furniture">25535.13</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">23603.85</field>
+			<field name="leave_grant">6383.78</field>
+			<field name="peculiar">49232.08 </field>
+			 <field name="consolidated">196928.33</field>
+        </record>
+
+<!-- GRADE LEVEL 16    STEP 01 TO 09 -->
+        <record id="gred_r16_1" model="grade">
+             <field name="name">GRADE LEVEL 16</field>
+        </record>
+
+        <record id="step_r16_o1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r16_o2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r16_o3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r16_o4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r16_o5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r16_o6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r16_o7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r16_o8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r16_o9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+
+        <record id="grade_step_r16_1" model="grade.step">
+            <field name="grade_id" ref="gred_r16_1"/>
+            <field name="step_id" ref="step_r16_o1"/>
+            <field name="wage">588312.24</field>
+            <field name="tax_annum">174291.04</field>
+            <field name="tax_month">14524.25</field>
+			<field name="housing">36769.52</field>
+			<field name="transport">14217.55</field>
+			<field name="utility">9805.20</field>
+			<field name="furniture">19610.41</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">47207.70</field>
+			<field name="leave_grant">4902.60</field>
+			<field name="peculiar">45784.92 </field>
+			 <field name="consolidated">183139.75 </field>
+        </record>
+        <record id="grade_step_r16_2" model="grade.step">
+            <field name="grade_id" ref="gred_r16_1"/>
+            <field name="step_id" ref="step_r16_o2"/>
+            <field name="wage">620360.40</field>
+            <field name="tax_annum">185970.04</field>
+            <field name="tax_month">15497.50</field>
+			<field name="housing">38772.53</field>
+			<field name="transport">14992.04</field>
+			<field name="utility">10339.34</field>
+			<field name="furniture">20678.68</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">47207.70</field>
+			<field name="leave_grant">5169.67</field>
+			<field name="peculiar">47614.33 </field>
+			 <field name="consolidated">190457.41 </field>
+        </record>
+        <record id="grade_step_r16_3" model="grade.step">
+            <field name="grade_id" ref="gred_r16_1"/>
+            <field name="step_id" ref="step_r16_o3"/>
+            <field name="wage">652408.56</field>
+            <field name="tax_annum">197649.03</field>
+            <field name="tax_month">16470.75</field>
+			<field name="housing">40775.54</field>
+			<field name="transport">15766.54</field>
+			<field name="utility">10873.48</field>
+			<field name="furniture">21746.95</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">47207.70</field>
+			<field name="leave_grant">5436.74</field>
+			<field name="peculiar">49443.75 </field>
+			 <field name="consolidated"> 197775.08</field>
+        </record>
+        <record id="grade_step_r16_4" model="grade.step">
+            <field name="grade_id" ref="gred_r16_1"/>
+            <field name="step_id" ref="step_r16_o4"/>
+            <field name="wage">684456.84</field>
+            <field name="tax_annum">209328.03</field>
+            <field name="tax_month">17444.00</field>
+			<field name="housing">42778.55</field>
+			<field name="transport">16541.04</field>
+			<field name="utility">11407.61</field>
+			<field name="furniture">22815.23</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">47207.70</field>
+			<field name="leave_grant">5703.81</field>
+			<field name="peculiar">51273.17 </field>
+			 <field name="consolidated">205092.75</field>
+        </record>
+        <record id="grade_step_r16_5" model="grade.step">
+            <field name="grade_id" ref="gred_r16_1"/>
+            <field name="step_id" ref="step_r16_o5"/>
+            <field name="wage">716505.00</field>
+            <field name="tax_annum">221007.03</field>
+            <field name="tax_month">18417.25</field>
+			<field name="housing">44781.56</field>
+			<field name="transport">17315.54</field>
+			<field name="utility">11941.75</field>
+			<field name="furniture">23883.50</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">47207.70</field>
+			<field name="leave_grant">5970.88</field>
+			<field name="peculiar">53102.58 </field>
+			 <field name="consolidated">212410.41 </field>
+        </record>
+        <record id="grade_step_r16_6" model="grade.step">
+            <field name="grade_id" ref="gred_r16_1"/>
+            <field name="step_id" ref="step_r16_o6"/>
+            <field name="wage">748553.16</field>
+            <field name="tax_annum">233600.34</field>
+            <field name="tax_month">19466.69</field>
+			<field name="housing">467814.57</field>
+			<field name="transport">18090.03</field>
+			<field name="utility">12475.89</field>
+			<field name="furniture">24951.77</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">47207.70</field>
+			<field name="leave_grant">6237.94</field>
+			<field name="peculiar"> 54932.00</field>
+			 <field name="consolidated">219728.08 </field>
+        </record>
+        <record id="grade_step_r16_7" model="grade.step">
+            <field name="grade_id" ref="gred_r16_1"/>
+            <field name="step_id" ref="step_r16_o7"/>
+            <field name="wage">780613.32</field>
+            <field name="tax_annum">246508.70</field>
+            <field name="tax_month">20542.39</field>
+			<field name="housing">48787.58</field>
+			<field name="transport">18864.53</field>
+			<field name="utility">13010.02</field>
+			<field name="furniture">26020.04</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">47207.70</field>
+			<field name="leave_grant">6505.01</field>
+			<field name="peculiar"> 56761.42</field>
+			 <field name="consolidated">227045.75 </field>
+        </record>
+        <record id="grade_step_r16_8" model="grade.step">
+            <field name="grade_id" ref="gred_r16_1"/>
+            <field name="step_id" ref="step_r16_o8"/>
+            <field name="wage">812649.48</field>
+            <field name="tax_annum">259417.07</field>
+            <field name="tax_month">21618.09</field>
+			<field name="housing">50790.59</field>
+			<field name="transport">19639.03</field>
+			<field name="utility">13544.16</field>
+			<field name="furniture">27088.32</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">47207.70</field>
+			<field name="leave_grant">6772.08</field>
+			<field name="peculiar">58590.83 </field>
+			 <field name="consolidated"> 234363.41</field>
+        </record>
+        <record id="grade_step_r16_9" model="grade.step">
+            <field name="grade_id" ref="gred_r16_1"/>
+            <field name="step_id" ref="step_r16_o9"/>
+            <field name="wage">844697.64</field>
+            <field name="tax_annum">272325.43</field>
+            <field name="tax_month">22693.79</field>
+			<field name="housing">52793.60</field>
+			<field name="transport">20413.53</field>
+			<field name="utility">14078.29</field>
+			<field name="furniture">28156.59</field>
+			<field name="meal">1600.75</field>
+			<field name="domestic">47207.70</field>
+			<field name="leave_grant">7039.15</field>
+			<field name="peculiar">60420.25 </field>
+			 <field name="consolidated">241681.08 </field>
+        </record>
+
+<!--GRADE LEVEL 17    STEP 01 TO 09-->
+        <record id="gred_r17_1" model="grade">
+             <field name="name">GRADE LEVEL 17</field>
+        </record>
+
+        <record id="step_r17_p1" model="step">
+             <field name="name">STEP 01</field>
+        </record>
+        <record id="step_r17_p2" model="step">
+             <field name="name">STEP 02</field>
+        </record>
+        <record id="step_r17_p3" model="step">
+             <field name="name">STEP 03</field>
+        </record>
+        <record id="step_r17_p4" model="step">
+             <field name="name">STEP 04</field>
+        </record>
+        <record id="step_r17_p5" model="step">
+             <field name="name">STEP 05</field>
+        </record>
+        <record id="step_r17_p6" model="step">
+             <field name="name">STEP 06</field>
+        </record>
+        <record id="step_r17_p7" model="step">
+             <field name="name">STEP 07</field>
+        </record>
+        <record id="step_r17_p8" model="step">
+             <field name="name">STEP 08</field>
+        </record>
+        <record id="step_r17_p9" model="step">
+             <field name="name">STEP 09</field>
+        </record>
+
+        <record id="grade_step_r17_1" model="grade.step">
+            <field name="grade_id" ref="gred_r17_1"/>
+            <field name="step_id" ref="step_r17_p1"/>
+            <field name="wage">1205744.28</field>
+            <field name="tax_annum">460989.20</field>
+            <field name="tax_month">38415.77</field>
+			<field name="housing">75359.02</field>
+			<field name="transport">29138.82</field>
+			<field name="utility">20095.74</field>
+			<field name="furniture">40191.48</field>
+			<field name="meal">2510.16</field>
+			<field name="domestic">70811.55</field>
+			<field name="leave_grant">10047.87</field>
+			<field name="peculiar">87158.33 </field>
+			 <field name="consolidated">348633.33 </field>
+        </record>
+        <record id="grade_step_r17_2" model="grade.step">
+            <field name="grade_id" ref="gred_r17_1"/>
+            <field name="step_id" ref="step_r17_p2"/>
+            <field name="wage">1263615.48</field>
+            <field name="tax_annum">484298.55</field>
+            <field name="tax_month">40358.21</field>
+			<field name="housing">78975.97</field>
+			<field name="transport">30537.37</field>
+			<field name="utility">21060.26</field>
+			<field name="furniture">42120.52</field>
+			<field name="meal">2510.16</field>
+			<field name="domestic">70811.55</field>
+			<field name="leave_grant">10530.13</field>
+			<field name="peculiar">90461.83 </field>
+			 <field name="consolidated">361847.25 </field>
+        </record>
+        <record id="grade_step_r17_3" model="grade.step">
+            <field name="grade_id" ref="gred_r17_1"/>
+            <field name="step_id" ref="step_r17_p3"/>
+            <field name="wage">1321486.68</field>
+            <field name="tax_annum">507607.90</field>
+            <field name="tax_month">42300.66</field>
+			<field name="housing">82592.92</field>
+			<field name="transport">31935.93</field>
+			<field name="utility">22024.78</field>
+			<field name="furniture">44049.56</field>
+			<field name="meal">2510.16</field>
+			<field name="domestic">70811.55</field>
+			<field name="leave_grant">11012.39</field>
+			<field name="peculiar">93765.33</field>
+			 <field name="consolidated">375061.16 </field>
+        </record>
+        <record id="grade_step_r17_4" model="grade.step">
+            <field name="grade_id" ref="gred_r17_1"/>
+            <field name="step_id" ref="step_r17_p4"/>
+            <field name="wage">1379357.88</field>
+            <field name="tax_annum">530917.25</field>
+            <field name="tax_month">44243.10</field>
+			<field name="housing">86209.87</field>
+			<field name="transport">33334.48</field>
+			<field name="utility">22989.30</field>
+			<field name="furniture">45978.60</field>
+			<field name="meal">2510.16</field>
+			<field name="domestic">70811.55</field>
+			<field name="leave_grant">11494.65</field>
+			<field name="peculiar">97068.75 </field>
+			 <field name="consolidated">388275.08 </field>
+        </record>
+        <record id="grade_step_r17_5" model="grade.step">
+            <field name="grade_id" ref="gred_r17_1"/>
+            <field name="step_id" ref="step_r17_p5"/>
+            <field name="wage">1437228.96</field>
+            <field name="tax_annum">554226.60</field>
+            <field name="tax_month">46185.55</field>
+			<field name="housing">89826.81</field>
+			<field name="transport">34733.03</field>
+			<field name="utility">23953.82</field>
+			<field name="furniture">47907.63</field>
+			<field name="meal">2510.16</field>
+			<field name="domestic">70811.55</field>
+			<field name="leave_grant">1438.28</field>
+			<field name="peculiar">100372.25 </field>
+			 <field name="consolidated">401489.00 </field>
+        </record>
+        <record id="grade_step_r17_6" model="grade.step">
+            <field name="grade_id" ref="gred_r17_1"/>
+            <field name="step_id" ref="step_r17_p6"/>
+            <field name="wage">1495100.16</field>
+            <field name="tax_annum">580041.08</field>
+            <field name="tax_month">48336.76</field>
+			<field name="housing">93443.76</field>
+			<field name="transport">36131.59</field>
+			<field name="utility">24918.34</field>
+			<field name="furniture">49836.67</field>
+			<field name="meal">2510.16</field>
+			<field name="domestic">70811.55</field>
+			<field name="leave_grant">12459.17</field>
+			<field name="peculiar">103675.75 </field>
+			 <field name="consolidated">414702.91</field>
+        </record>
+        <record id="grade_step_r17_7" model="grade.step">
+            <field name="grade_id" ref="gred_r17_1"/>
+            <field name="step_id" ref="step_r17_p7"/>
+            <field name="wage">1552971.36</field>
+            <field name="tax_annum">606680.34</field>
+            <field name="tax_month">50556.69</field>
+			<field name="housing">97060.71</field>
+			<field name="transport">37530.14</field>
+			<field name="utility">25882.86</field>
+			<field name="furniture">51765.71</field>
+			<field name="meal">2510.16</field>
+			<field name="domestic">70811.55</field>
+			<field name="leave_grant">12941.43</field>
+			<field name="peculiar">106979.25 </field>
+			<field name="consolidated">427916.83 </field>
+        </record>
+        <record id="grade_step_r17_8" model="grade.step">
+            <field name="grade_id" ref="gred_r17_1"/>
+            <field name="step_id" ref="step_r17_p8"/>
+            <field name="wage">1610842.56</field>
+            <field name="tax_annum">633319.59</field>
+            <field name="tax_month">52776.63</field>
+			<field name="housing">100677.66</field>
+			<field name="transport">38928.70</field>
+			<field name="utility">26847.38</field>
+			<field name="furniture">53694.75</field>
+			<field name="meal">2510.16</field>
+			<field name="domestic">70811.55</field>
+			<field name="leave_grant">13423.69</field>
+			<field name="peculiar"> 110282.67</field>
+			<field name="consolidated"> 441130.75</field>
+        </record>
+        <record id="grade_step_r17_9" model="grade.step">
+            <field name="grade_id" ref="gred_r17_1"/>
+            <field name="step_id" ref="step_r17_p9"/>
+            <field name="wage">1668713.64</field>
+            <field name="tax_annum">659958.85</field>
+            <field name="tax_month">54996.57</field>
+			<field name="housing">104294.60</field>
+			<field name="transport">40327.25</field>
+			<field name="utility">27811.89</field>
+			<field name="furniture">55623.79</field>
+			<field name="meal">2510.16</field>
+			<field name="domestic">70811.55</field>
+			<field name="leave_grant">13905.95</field>
+			<field name="peculiar">113586.17 </field>
+			<field name="consolidated">454344.66 </field>
+        </record>
+    </data>
+</openerp>

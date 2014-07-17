@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_payment_voucher_wizard_form" model="ir.ui.view">
+            <field name="name">payment.voucher.wizard.form</field>
+            <field name="model">payment.voucher.wizard</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+            <form string="Payroll Summary" version="7.0">
+                <group  colspan="4">
+                	<group>
+						<field name="period_id"/>
+		                <field name="bank_id"/>
+	                </group>
+                </group>
+                <footer>
+                    <button name="print_report_basic" string="Print Basic Summary Report" type="object" class="oe_highlight"/>
+                    <!--button icon="gtk-print" string="Print Basic Excel" name="print_excel" type="object" class="oe_highlight"/-->
+                    <button name="print_report_consolidated" string="Print Consolidated Summary Report" type="object" class="oe_highlight"/>
+                    or
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+            </field>
+        </record>
+
+        <record id="action_payment_voucher_wizard" model="ir.actions.act_window">
+            <field name="name">Payroll Summary Report</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">payment.voucher.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+   
+
+        <menuitem
+            parent="hr_payroll_payslip_report.payroll_report_parent"
+            action="action_payment_voucher_wizard"
+            sequence="12" 
+            id="menu_payment_voucher_report"
+           />
+           
+       <!--record id="view_bank_payroll_basic_excel_form" model="ir.ui.view">
+            <field name="name">bank.payroll.excel.basic.form</field>
+            <field name="model">bank.payroll.excel.basic</field>
+            <field name="arch" type="xml">
+                <form string="Bank Payroll Summary Excel Report file" version="7.0">
+                    <group>
+                        <field name="excel_file" readonly="1" filename="file_name"/>
+                        <field name="file_name" invisible="1"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_bank_payroll_basic_excel" model="ir.actions.act_window">
+            <field name="name">HR Payroll Basic Summary Excel Report </field>
+            <field name="view_id" ref="view_bank_payroll_basic_excel_form"/>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="res_model">bank.payroll.excel.basic</field>
+            <field name="target">new</field>
+        </record-->
+
+
+   </data>
+</openerp>

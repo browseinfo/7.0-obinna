@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+   <report id="tax_date_webkit_report"
+           name="tax.date.webkit.report"
+           auto="False"
+           model="tax.wizard"
+           file="tax_webkit_report/report/tax_report.mako"
+           string="TAX Report"
+           header="False"  
+           webkit_header=""
+           report_type="webkit"/>
+ </data>
+</openerp>
+ 
+

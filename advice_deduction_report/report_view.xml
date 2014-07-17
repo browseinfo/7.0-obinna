@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+   <report id="advice_deduction_report_uniq"
+           name="advice.deduct"
+           auto="False"
+           model="advance.deduction.wizard"
+           file="advice_deduction_report/report/advice_report.rml"
+           string="Advise of Deduction Report"
+           header="False"  
+           />
+ </data>
+</openerp>
+ 
+

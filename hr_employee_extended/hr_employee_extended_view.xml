@@ -1,0 +1,273 @@
+<?xml version="1.0" ?>
+<openerp>
+	<data>
+		<record id="view_hr_employee_extended" model="ir.ui.view">
+            <field name="name">hr.employee.form.extended</field>
+			<field name="model">hr.employee</field>
+			<field name="inherit_id" ref="hr.view_employee_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//notebook/page" position="after">
+                    <page string="Bank Details">
+						<group>
+							<group>
+								<field name="file_number" class="oe_inline"/>								
+								<field name="title" class="oe_inline"/>
+								<field name="state_of_origin" class="oe_inline"/>								
+								<field name="local_goverment_area" class="oe_inline"/>							
+								<field name="qualification" class="oe_inline"/>
+								<field name="date_of_appointment" class="oe_inline"/>	
+								<field name="date_of_present_appointment" class="oe_inline"/>
+								<field name="station_deployed" class="oe_inline"/>								
+								<field name="rank_id" class="oe_inline"/>
+								<field name="new_staff" class="oe_inline"/>
+							</group>
+							<group>
+								<field name="bank_name" class="oe_inline"/>
+								<field name="bank_pay_point"/>
+								<field name="bank_account_number" class="oe_inline"/>
+								<field name="tin_number" class="oe_inline"/>	
+							</group>
+						</group>	
+						<group string="Payroll Details">
+							<group>
+								<field name="ctls"/>
+								<field name="underpayment"/>
+								<field name="arrears_basic"/>
+									<label for="arrear_allow"/>
+									<div class="oe_inline">
+										<field name="arrear_allow" class="oe_inline"/><!--button string="Update" type="object" name="arrear_update"/-->
+									</div>
+								<field name="over_payment"/>
+								<field name="nhis"/>
+							</group>
+							<group>
+								<field name="motor_advance" class="oe_inline"/>
+								<field name="fghb" class="oe_inline"/>
+								<field name="overtime" class="oe_inline"/>
+								<field name="other_deduction" class="oe_inline"/>
+								<field name="personal_advance" class="oe_inline"/>
+								<field name="salary_advance" class="oe_inline"/>
+							</group>
+						</group>								
+					</page>					
+                </xpath>				
+			</field>
+		</record>
+
+        <record id="view_hr_employee_kanban_inherited" model="ir.ui.view">
+            <field name="name">hr.employee.kanban.inherited</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.hr_kanban_view_employees"/>
+            <field name="arch" type="xml">
+                <!--field name="work_phone" position="after">
+                    <field name="file_number"/>
+                </field-->
+                <xpath expr="//div[contains(@class, 'oe_employee_details')]" position="inside">
+                    <a t-if="! read_only_mode"><field name="file_number"/></a>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_hr_employee_search_inherited" model="ir.ui.view">
+            <field name="name">hr.employee.search.inherited</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_filter"/>
+            <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <field name="file_number"/>
+                </field>
+				<!--xpath expr="//field[@name='name']" position="after">
+				 <field name="file_number"/>
+               </xpath-->
+            </field>
+        </record>
+
+		
+		<record id="view_res_partner_bank_add_form" model="ir.ui.view">
+            <field name="name">res.partner.bank.form.extended</field>
+			<field name="model">res.partner.bank</field>
+			<field name="inherit_id" ref="base.view_partner_bank_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='bank_bic']" position="after">
+				 <field name="branch_code"/>
+ 				 <field name="sort_code"/>
+ 				 <field name="account_type"/>
+ 				 <field name="acc_unit"/>
+                </xpath>				
+			</field>
+		</record>
+		
+	
+		<record model='ir.ui.view' id='res_rank_form'>
+			<field name='name'>res.rank.form</field>
+			<field name='model'>res.rank</field>
+			<field name='type'>form</field>
+			<field name='arch' type='xml'>
+				<form string='Rank' version="7.0">
+					<sheet>
+						<label for="name" class="oe_edit_only"/>						
+                        <h2>
+                            <field name="name" class="oe_inline"/>
+                        </h2>
+                        <separator  string="Description"/>
+                        <field name="description" colspan="1" placeholder="Description....." class="oe_inline"/>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<record model='ir.ui.view' id='res_rank_tree'>
+			<field name='name'>res.rank.tree</field>
+			<field name='model'>res.rank</field>
+			<field name='type'>tree</field>
+			<field name='arch' type='xml'>
+				<tree string='Rank'>
+					<field name="name"/>
+					<field name="description"/>					 
+				</tree>
+			</field>
+		</record>
+		<record model='ir.actions.act_window' id='action_res_rank'>
+			<field name='name'>Rank</field>
+			<field name='res_model'>res.rank</field>
+			<field name='view_type'>form</field>
+			<field name='view_mode'>tree,form</field>
+		</record>
+		
+		<record model='ir.ui.view' id='bank_pay_point_form'>
+			<field name='name'>bank.pay.point.form</field>
+			<field name='model'>bank.pay.point</field>
+			<field name='type'>form</field>
+			<field name='arch' type='xml'>
+				<form string='Bank Pay Point' version="7.0">
+					<sheet>
+						<label for="name" class="oe_edit_only"/>							
+                        <h2>
+                            <field name="name" class="oe_inline"/>
+                        </h2>
+                        <separator  string="Description"/>
+                        <field name="description" colspan="1" placeholder="Description....." class="oe_inline"/>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		<record model='ir.ui.view' id='bank_pay_point_tree'>
+			<field name='name'>bank.pay.point.tree</field>
+			<field name='model'>bank.pay.point</field>
+			<field name='type'>tree</field>
+			<field name='arch' type='xml'>
+				<tree string='Bank Pay Point'>
+					<field name="name"/>
+					<field name="description"/>					 
+				</tree>
+			</field>
+		</record>
+		<record model='ir.actions.act_window' id='action_bank_pay_point'>
+			<field name='name'>Bank Pay Point</field>
+			<field name='res_model'>bank.pay.point</field>
+			<field name='view_type'>form</field>
+			<field name='view_mode'>tree,form</field>
+		</record>	
+		
+        <!-- <xpath expr="//field[@name='target_move']" position="after">
+            <field name="account_report_id" domain="[('parent_id','=',False)]"/>
+            <field name="enable_filter"/>
+            <field name="debit_credit" attrs="{'invisible': [('enable_filter','=',True)]}"/>
+        </xpath>     -->
+
+
+
+		<record id="view_hr_contract_adds" model="ir.ui.view">
+            <field name="name">hr.contract.form.extended</field>
+			<field name="model">hr.contract</field>
+			<field name="inherit_id" ref="hr_contract.hr_contract_view_form"/>
+			<field name="arch" type="xml">
+				<field name="employee_id" position="attributes">
+					<attribute name = "on_change">on_change_employee(employee_id, context)</attribute>
+				</field>
+				<xpath expr="//field[@name='wage']" position="after">
+ 				 <field name="tax_annum"/>
+				 <field name="tax_month"/>
+				 <field name="housing"/>
+				 <field name="transport"/>
+				 <field name="utility"/>
+				 <field name="furniture"/>
+				 <field name="meal"/>
+				 <field name="domestic"/>
+				 <field name="leave_grant"/>
+				 <field name="peculiar"/>
+				 <field name="consolidated"/>
+				 <field name="accomodation"/>
+				 <field name="entertainment"/>
+				 <field name="motor"/>
+				 <field name="newspaper"/>
+				 <field name="personal_assistant"/>
+                </xpath>				
+			</field>
+		</record>
+		
+				<record id="view_grade_step_form" model="ir.ui.view">
+            <field name="name">grade.step.form</field>
+			<field name="model">grade.step</field>
+			<field name="arch" type="xml">
+				<form string="Grade Step" version="7.0">
+					<sheet>
+					<group cols="4">
+						<group>
+							<field name="grade_id"/>							
+							<field name="step_id"/>
+					    </group>
+				   </group>
+				   <group cols="4">  
+						<group>
+							<field name="wage"/>
+							<field name="tax_annum"/>
+			 				<field name="tax_month"/>
+							 <field name="housing"/>
+							 <field name="transport"/>
+							 <field name="peculiar"/>
+							 <field name="accomodation"/>
+							 <field name="entertainment"/>
+							 <field name="motor"/>
+						</group>
+  
+					    <group>
+							 <field name="utility"/>
+							 <field name="furniture"/>
+							 <field name="meal"/>
+							 <field name="domestic"/>
+							 <field name="leave_grant"/>
+							 <field name="consolidated"/>
+							 <field name="newspaper"/>
+							 <field name="personal_assistant"/>
+						</group>
+					</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+		
+		<record id="view_grade_step_tree" model="ir.ui.view">
+            <field name="name">grade.step.tree</field>
+            <field name="model">grade.step</field>
+            <field name="arch" type="xml">
+            	<tree string="Grade Step">
+					<field name="grade_id"/>							
+					<field name="step_id"/>
+				</tree>
+            </field>
+        </record>
+		
+		
+        <record id="action_grade_step" model="ir.actions.act_window">
+            <field name="name">Grade Step</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">grade.step</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+		<menuitem action="action_grade_step" id="menu_grade_step" parent="hr.menu_hr_configuration" sequence="7"/>
+
+        
+	</data>
+</openerp>

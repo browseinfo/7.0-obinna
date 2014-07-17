@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_voucher_payment_deduction_form" model="ir.ui.view">
+            <field name="name">voucher.payment.deduction.wizard.form</field>
+            <field name="model">voucher.payment.deduction.wizard</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+            <form string="Bank Details" version="7.0">
+                <group  colspan="4">
+                	<group>
+                		<field name="period_id"/>
+		                <field name="head"/>
+		                <field name="vo1"/>
+		                <field name="department_no"/>
+	                </group>
+	                <group>
+	                	<field name="deduction" domain="[('category_id','=',code)]" on_change="onchange_deduction(deduction)"/>
+	                	<field name="s_head"/>
+	                	<field name="classification_code"/>
+	                	<field name="payee"/>
+	                	<field name="address"/>
+	                	<field name="code" invisible="1"/>
+	                </group>
+                </group>
+               <notebook>
+                	<page string="Bank Name">
+                		<field name="bank_ids"/>
+                	</page>
+                </notebook>
+                <footer>
+                    <button name="print_report" string="Print" type="object" class="oe_highlight"/>
+                    or
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+            </field>
+        </record>
+
+        <record id="action_voucher_payment_deduction_wizard" model="ir.actions.act_window">
+            <field name="name">Payroll Vouchers</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">voucher.payment.deduction.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+   
+
+        <menuitem
+            parent="hr_payroll_payslip_report.payroll_report_parent"
+            action="action_voucher_payment_deduction_wizard"
+            sequence="21" 
+            id="menu_voucher_payment_deduction_report"
+           />
+
+   </data>
+</openerp>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+   <report id="ctls_date_webkit_report"
+           name="ctls.date.webkit.report"
+           auto="False"
+           model="ctls.wizard"
+           file="ctls_webkit_report/report/ctls_report.mako"
+           string="CTLS Report"
+           header="False"  
+           webkit_header=""
+           report_type="webkit"/>
+ </data>
+</openerp>
+ 
+

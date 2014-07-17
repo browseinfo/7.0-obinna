@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+   <report id="pension_date_webkit_report"
+           name="pension.date.webkit.report"
+           auto="False"
+           model="pension.wizard"
+           file="pension_webkit_report/report/pension_report.mako"
+           string="PENSION Report"
+           header="False"  
+           webkit_header=""
+           report_type="webkit"/>
+ </data>
+</openerp>
+ 
+

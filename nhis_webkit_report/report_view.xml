@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+   <report id="nhis_date_webkit_report"
+           name="nhis.date.webkit.report"
+           auto="False"
+           model="nhis.wizard"
+           file="nhis_webkit_report/report/nhis_report.mako"
+           string="NHIS Report"
+           header="False"  
+           webkit_header=""
+           report_type="webkit"/>
+ </data>
+</openerp>
+ 
+

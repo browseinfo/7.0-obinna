@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <report id="payment_voucher_report"
+            name="payroll.summary.report"
+            auto="False"
+            model="payment.voucher.wizard"
+            file="payment_voucher_emoluments/report/payment_voucher_report.mako"
+			webkit_header="bank_report.ir_header_webkit_base_bank_report"
+			string="Payroll Basic Summary"
+            report_type="webkit"
+	    	header="False"/>
+	    	
+	<report id="payment_voucher_report_consolidated"
+            name="payroll.summary.report.consolidated"
+            auto="False"
+            model="payment.voucher.wizard"
+            string="Payroll Consolidated Summary"
+            file="payment_voucher_emoluments/report/payment_voucher_report_consolidated.mako"
+			webkit_header="bank_report.ir_header_webkit_base_bank_report"
+            report_type="webkit"
+	    	header="False"/>
+  </data>
+</openerp>

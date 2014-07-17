@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <report auto="False" id="employee_payslip_report" model="hr.payslip" name="payslip.report"
+                rml="payslip_report/report/report_payslip.rml" string="Employee PaySlip"
+                usage="default"/>
+                
+         <report id="payslip_report_for_march"
+           name="payslip.report.march"
+           auto="False"
+           model="hr.payslip"
+           file="payslip_report/report/report_payslip_march.mako"
+           string="Basic Payslip"
+           header="False"  
+           webkit_header="payslip_report.ir_header_webkit_base_payslip_report_march"
+           report_type="webkit"/>
+           
+           
+       <report id="payslip_report_for_basic"
+           name="payslip.report.basic"
+           auto="False"
+           model="hr.payslip"
+           file="payslip_report/report/report_payslip_basic_consolidated.mako"
+           string="Consolidated Payslip"
+           header="False"  
+           webkit_header="payslip_report.ir_header_webkit_base_payslip_report_march"
+           report_type="webkit"/>
+
+    </data>
+</openerp>

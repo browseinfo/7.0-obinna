@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_ctls_wizard_view" model="ir.ui.view">
+            <field name="name">ctls.report.wizard.view</field>
+            <field name="model">ctls.wizard</field>
+            <field name="arch" type="xml">
+                <form string="CTLS Report Wizard" version="7.0">
+                    <group col='4'>
+                        <field name="period_id" />
+                    </group>              
+                    
+                    <footer>
+                        <button string="Print" name="purchase_amount_report" type="object" class="oe_highlight"/>
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel" />
+                    </footer>
+               </form>
+            </field>
+        </record>
+
+        <record id="action_ctls_wizard" model="ir.actions.act_window">
+            <field name="name">CTLS Report</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">ctls.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+        
+        <menuitem action="action_ctls_wizard"
+				 id="menu_action_ctls_date_wizard"
+				 parent="hr_payroll_payslip_report.payroll_report_parent"
+                 sequence="17" />
+
+    </data>
+</openerp>

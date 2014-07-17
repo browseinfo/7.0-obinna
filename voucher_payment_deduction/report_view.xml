@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+   <report id="voucher_payment_deduction_uniq"
+           name="voucher.deduction.report"
+           auto="False"
+           model="voucher.payment.deduction.wizard"
+           file="voucher_payment_deduction/report/voucher_payment_deduction.rml"
+           string="Payroll Vouchers"
+           header="False"  
+           />
+ 
+ 	<record id="view_hr_salary_rule_form1" model="ir.ui.view">
+		<field name="name">hr.salary.rule.extened</field>
+		<field name="model">hr.salary.rule</field>
+		<field name="inherit_id" ref="hr_payroll.hr_salary_rule_form"/>
+		<field name="arch" type="xml">
+			<xpath expr="//notebook/page[@string='Description']" position="after">
+	        	<page string="Payroll Voucher">
+	        		<group col="4">
+	        			<field name="head"/>
+	        			<field name="sub_head"/>
+	        			<field name="classification_code"/>
+	        			<field name="vo1"/>
+	        		</group>
+	        	</page>
+	        </xpath>
+		</field>
+    </record>
+ 
+ </data>
+</openerp>
+ 
+
