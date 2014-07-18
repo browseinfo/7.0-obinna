@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_advance_deduction_form" model="ir.ui.view">
+            <field name="name">advance.deduction.wizard.form</field>
+            <field name="model">advance.deduction.wizard</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+            <form string="Bank Details" version="7.0">
+                <group  colspan="4">
+                	<group>
+                		<field name="period_id"/>
+                		<field name="deduction" domain="[('category_id','=',code)]"/>
+	                </group>
+	                <group>
+	                	<!--field name="payroll_no"/-->
+	                	<field name="head"/>
+	                	<field name="s_head"/>
+	                	<field name="code" invisible="1"/>
+	                </group>
+                </group>
+                <notebook>
+                	<page string="Bank Name">
+                		<field name="bank_ids"/>
+                	</page>
+                </notebook>
+                <footer>
+                    <button name="print_advice_report" string="Print" type="object" class="oe_highlight"/>
+                    or
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+            </field>
+        </record>
+
+        <record id="action_advice_deduct_wizard" model="ir.actions.act_window">
+            <field name="name">Advise of Deduction</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">advance.deduction.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+   
+
+        <menuitem
+            parent="hr_payroll_payslip_report.payroll_report_parent"
+            action="action_advice_deduct_wizard"
+            sequence="21" 
+            id="menu_advance_deduct_report"
+           />
+
+   </data>
+</openerp>
